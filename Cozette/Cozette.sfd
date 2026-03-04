@@ -120,7 +120,7 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 7363 37 14
+WinInfo: 42661 37 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -50183,7 +50183,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 13 6062 10 3 1
+BitmapFont: 13 6091 10 3 1
 BDFStartProperties: 42
 FONT 1 "-inesw-Cozette-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2025 Ines @ the.moonwit.ch"
@@ -62353,6 +62353,64 @@ BDFChar: -1 7580 6 1 4 4 8
 @$#o#?iU0,
 BDFChar: -1 7590 6 1 3 4 8
 i'9OmhuE`W
+BDFChar: -1 7933 6 1 5 0 8
++@(I-OGJ^KDu]k<
+BDFChar: -1 7932 6 1 5 0 7
++@(I=Lkpk+
+BDFChar: -1 8266 6 1 5 -2 5
+p]qEB+<Wp7
+BDFChar: -1 11381 6 2 5 0 7
+i'9PH5X7Tm
+BDFChar: -1 11382 6 2 5 0 5
+i';6H5i;VB
+BDFChar: -1 42842 6 1 5 0 7
+E/4c2+@%%d
+BDFChar: -1 42843 6 1 5 0 5
+E/4cR5WA`D
+BDFChar: -1 42850 6 1 5 -3 7
+E/9$h&0O7-#`*F"
+BDFChar: -1 42851 6 1 5 -3 8
+E/9$pGRtu_n-Fhh
+BDFChar: -1 42860 6 1 5 0 7
+0M#"oa9[T@
+BDFChar: -1 42861 6 1 5 -3 8
+&1Asr+<VdL+<[=B
+BDFChar: -1 42862 6 1 5 -2 7
+E/9=+Le&'g+@#o,
+BDFChar: -1 42863 6 1 5 -2 5
+E/9=+8.Z=T
+BDFChar: -1 42873 6 1 5 0 7
+n48@kLkpk+
+BDFChar: -1 42874 6 1 5 0 8
+J:Km-:l'p`Du]k<
+BDFChar: -1 42875 6 2 5 -3 7
+i/iJ>J:N1.J:N.M
+BDFChar: -1 42876 12 2 5 -3 5
+i/iJ>JDbs.J,fQL
+BDFChar: -1 42877 6 1 5 0 7
+pcs@KLkpk+
+BDFChar: -1 42878 6 1 5 0 7
+E/9=+E!R$M
+BDFChar: -1 42882 6 1 5 -3 7
+i/j%^OH>Q[J:N.M
+BDFChar: -1 42883 6 1 5 -3 5
+i/j%^OGJF;J,fQL
+BDFChar: -1 42884 6 2 5 -3 7
+i/iJ>J:N0#J:N.M
+BDFChar: -1 42885 6 2 5 -3 5
+i/iJ>J:N0#J,fQL
+BDFChar: -1 42886 6 1 5 0 7
+pcs@[J:NGp
+BDFChar: -1 42887 6 1 5 0 5
+pcs@[Li<=o
+BDFChar: -1 42910 6 1 5 0 7
+LkpjXLkpk+
+BDFChar: -1 42911 6 1 5 0 5
+LknTXLi<=o
+BDFChar: -1 42997 6 1 4 0 7
+E$-:]+<VeG
+BDFChar: -1 42998 6 1 4 0 5
+E$4']+E.;\
 BDFRefChar: 1999 1944 0 0 N
 BDFRefChar: 2000 1943 0 0 N
 BDFRefChar: 2001 1941 0 0 N
