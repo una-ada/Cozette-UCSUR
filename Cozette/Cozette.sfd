@@ -120,7 +120,7 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 407 37 14
+WinInfo: 1036 37 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -50183,7 +50183,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 13 6048 10 3 1
+BitmapFont: 13 6054 10 3 1
 BDFStartProperties: 42
 FONT 1 "-inesw-Cozette-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2025 Ines @ the.moonwit.ch"
@@ -62325,6 +62325,18 @@ BDFChar: -1 546 6 1 5 0 7
 Lkp#+Lkpk+
 BDFChar: -1 547 6 1 5 0 8
 Lkpk+LkpkCDu]k<
+BDFChar: -1 891 6 1 5 0 5
+E/4c*Li<=o
+BDFChar: -1 1021 6 1 5 0 7
+E/4c*#RH6*
+BDFChar: -1 1352 6 1 5 0 7
+E/9=+LkpkC
+BDFChar: -1 1363 6 1 5 0 7
++E49XW2OYX
+BDFChar: -1 1403 6 1 5 -3 5
+E/9=+:`r#Rp](9o
+BDFChar: -1 1411 6 1 5 -3 8
++<Vf2W2QYnBHSE?
 BDFRefChar: 1999 1944 0 0 N
 BDFRefChar: 2000 1943 0 0 N
 BDFRefChar: 2001 1941 0 0 N
