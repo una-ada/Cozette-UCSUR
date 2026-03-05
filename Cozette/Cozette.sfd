@@ -55266,7 +55266,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 13 6142 10 3 1
+BitmapFont: 13 6161 10 3 1
 BDFStartProperties: 42
 FONT 1 "-inesw-Cozette-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2025 Ines @ the.moonwit.ch"
@@ -67594,6 +67594,46 @@ BDFChar: 6139 63361 6 1 5 0 9
 +E47bLeo3::l#)O
 BDFChar: 6140 63360 6 1 5 0 5
 d&<nAW2K[r
+BDFChar: -1 63232 6 1 5 0 9
+BTN4%OC3msW2K[r
+BDFChar: -1 63233 6 1 5 0 7
+8>rJcW2QYV
+BDFChar: -1 63234 6 1 5 0 9
+p]+]`JFJANLkl$2
+BDFChar: -1 63235 6 1 5 0 7
+E/8ap82s.r
+BDFChar: -1 63236 6 1 5 0 7
+E/9=+LkpkC
+BDFChar: -1 63237 6 1 5 0 7
+E/9<hJ?[+N
+BDFChar: -1 63238 6 1 5 -2 7
+E/9<hJ:NGp+<UXa
+BDFChar: -1 63239 6 1 5 0 7
+E/9<h+:oY\
+BDFChar: -1 63240 6 1 5 0 7
+p^eQ55_+B8
+BDFChar: -1 63241 6 1 5 0 7
+E2]_6W2QXc
+BDFChar: -1 63242 6 1 5 -3 7
+E/4cR#RC]TJ:Klb
+BDFChar: -1 63243 6 1 5 0 7
+E/;T>J:NGp
+BDFChar: -1 63244 6 1 5 0 7
+E/9$pJ:NGp
+BDFChar: -1 63245 6 1 5 0 7
+E/9<hJ:NGp
+BDFChar: -1 63246 6 1 5 -2 7
+E/9<hJ;B#+-n#&q
+BDFChar: -1 63247 6 1 5 0 7
+&-rP\J:NGp
+BDFChar: -1 63248 6 1 5 0 7
+E/9<hLkm0M
+BDFChar: -1 63249 6 1 5 0 7
+0M"a=#RH6*
+BDFChar: -1 63250 6 1 5 0 7
+E/4c*#RH6*
+BDFChar: -1 63251 6 1 5 0 7
+E1#hp#RH6*
 BDFRefChar: 1998 1943 0 0 N
 BDFRefChar: 1999 1942 0 0 N
 BDFRefChar: 2000 1940 0 0 N
