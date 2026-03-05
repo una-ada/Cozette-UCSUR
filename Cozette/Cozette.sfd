@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1772674519
+ModificationTime: 1772690212
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -124,7 +124,7 @@ WinInfo: 63072 32 15
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 6141
+BeginChars: 1114112 6161
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -55265,6 +55265,146 @@ Width: 2048
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: uniF700
+Encoding: 63232 63232 6141
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF701
+Encoding: 63233 63233 6142
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF702
+Encoding: 63234 63234 6143
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF703
+Encoding: 63235 63235 6144
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF704
+Encoding: 63236 63236 6145
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF705
+Encoding: 63237 63237 6146
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF706
+Encoding: 63238 63238 6147
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF707
+Encoding: 63239 63239 6148
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF708
+Encoding: 63240 63240 6149
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF709
+Encoding: 63241 63241 6150
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF70A
+Encoding: 63242 63242 6151
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF70B
+Encoding: 63243 63243 6152
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF70C
+Encoding: 63244 63244 6153
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF70D
+Encoding: 63245 63245 6154
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF70E
+Encoding: 63246 63246 6155
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF70F
+Encoding: 63247 63247 6156
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF710
+Encoding: 63248 63248 6157
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF711
+Encoding: 63249 63249 6158
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF712
+Encoding: 63250 63250 6159
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniF713
+Encoding: 63251 63251 6160
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
 BitmapFont: 13 6161 10 3 1
 BDFStartProperties: 42
@@ -67594,45 +67734,45 @@ BDFChar: 6139 63361 6 1 5 0 9
 +E47bLeo3::l#)O
 BDFChar: 6140 63360 6 1 5 0 5
 d&<nAW2K[r
-BDFChar: -1 63232 6 1 5 0 9
+BDFChar: 6141 63232 6 1 5 0 9
 BTN4%OC3msW2K[r
-BDFChar: -1 63233 6 1 5 0 7
+BDFChar: 6142 63233 6 1 5 0 7
 8>rJcW2QYV
-BDFChar: -1 63234 6 1 5 0 9
+BDFChar: 6143 63234 6 1 5 0 9
 p]+]`JFJANLkl$2
-BDFChar: -1 63235 6 1 5 0 7
+BDFChar: 6144 63235 6 1 5 0 7
 E/8ap82s.r
-BDFChar: -1 63236 6 1 5 0 7
+BDFChar: 6145 63236 6 1 5 0 7
 E/9=+LkpkC
-BDFChar: -1 63237 6 1 5 0 7
+BDFChar: 6146 63237 6 1 5 0 7
 E/9<hJ?[+N
-BDFChar: -1 63238 6 1 5 -2 7
+BDFChar: 6147 63238 6 1 5 -2 7
 E/9<hJ:NGp+<UXa
-BDFChar: -1 63239 6 1 5 0 7
+BDFChar: 6148 63239 6 1 5 0 7
 E/9<h+:oY\
-BDFChar: -1 63240 6 1 5 0 7
+BDFChar: 6149 63240 6 1 5 0 7
 p^eQ55_+B8
-BDFChar: -1 63241 6 1 5 0 7
+BDFChar: 6150 63241 6 1 5 0 7
 E2]_6W2QXc
-BDFChar: -1 63242 6 1 5 -3 7
+BDFChar: 6151 63242 6 1 5 -3 7
 E/4cR#RC]TJ:Klb
-BDFChar: -1 63243 6 1 5 0 7
+BDFChar: 6152 63243 6 1 5 0 7
 E/;T>J:NGp
-BDFChar: -1 63244 6 1 5 0 7
+BDFChar: 6153 63244 6 1 5 0 7
 E/9$pJ:NGp
-BDFChar: -1 63245 6 1 5 0 7
+BDFChar: 6154 63245 6 1 5 0 7
 E/9<hJ:NGp
-BDFChar: -1 63246 6 1 5 -2 7
+BDFChar: 6155 63246 6 1 5 -2 7
 E/9<hJ;B#+-n#&q
-BDFChar: -1 63247 6 1 5 0 7
+BDFChar: 6156 63247 6 1 5 0 7
 &-rP\J:NGp
-BDFChar: -1 63248 6 1 5 0 7
+BDFChar: 6157 63248 6 1 5 0 7
 E/9<hLkm0M
-BDFChar: -1 63249 6 1 5 0 7
+BDFChar: 6158 63249 6 1 5 0 7
 0M"a=#RH6*
-BDFChar: -1 63250 6 1 5 0 7
+BDFChar: 6159 63250 6 1 5 0 7
 E/4c*#RH6*
-BDFChar: -1 63251 6 1 5 0 7
+BDFChar: 6160 63251 6 1 5 0 7
 E1#hp#RH6*
 BDFRefChar: 1998 1943 0 0 N
 BDFRefChar: 1999 1942 0 0 N
