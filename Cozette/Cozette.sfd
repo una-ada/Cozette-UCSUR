@@ -53,6 +53,7 @@ OS2SupYOff: 409
 OS2StrikeYSize: 2048
 OS2StrikeYPos: 512
 OS2Vendor: 'UNKN'
+Lookup: 257 1 0 "Single Positioning lookup 0" { "Single Positioning lookup 0-1"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cari' <'dflt' > 'cyrl' <'dflt' > 'goth' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'ital' <'dflt' > 'kana' <'dflt' > 'knd2' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > 'nshu' <'dflt' > 'runr' <'dflt' > 'thaa' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2025 Ines <ines@moonwit.ch>+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." "https://opensource.org/licenses/MIT"
@@ -120,7 +121,7 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 1872 16 12
+WinInfo: 1856 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -57085,6 +57086,7 @@ Width: 2048
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Position2: "Single Positioning lookup 0-1" dx=12 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: uni07A7
