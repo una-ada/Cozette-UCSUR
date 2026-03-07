@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1772771458
+ModificationTime: 1772842367
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -53,8 +53,9 @@ OS2SupYOff: 409
 OS2StrikeYSize: 2048
 OS2StrikeYPos: 512
 OS2Vendor: 'UNKN'
-Lookup: 257 1 0 "Single Positioning lookup 0" { "Single Positioning lookup 0-1"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cari' <'dflt' > 'cyrl' <'dflt' > 'goth' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'ital' <'dflt' > 'kana' <'dflt' > 'knd2' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > 'nshu' <'dflt' > 'runr' <'dflt' > 'thaa' <'dflt' > ) ]
 MarkAttachClasses: 1
+MarkAttachSets: 1
+"thaanVowel" 87 uni07A6 uni07A7 uni07A8 uni07A9 uni07AA uni07AB uni07AC uni07AD uni07AE uni07AF uni07B0
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2025 Ines <ines@moonwit.ch>+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." "https://opensource.org/licenses/MIT"
 MATH:ScriptPercentScaleDown: 80
@@ -121,10 +122,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 1856 16 12
+WinInfo: 1840 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: """" 
 BeginChars: 1114112 6412
 
 StartChar: uni0000
@@ -57083,16 +57085,14 @@ EndChar
 StartChar: uni07A6
 Encoding: 1958 1958 6400
 Width: 2048
-GlyphClass: 4
-Flags: HW
+Flags: W
+AnchorPoint: "" 0 0 basechar 0
 LayerCount: 2
-Position2: "Single Positioning lookup 0-1" dx=12 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: uni07A7
 Encoding: 1959 1959 6401
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57100,7 +57100,6 @@ EndChar
 StartChar: uni07A8
 Encoding: 1960 1960 6402
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57108,7 +57107,6 @@ EndChar
 StartChar: uni07A9
 Encoding: 1961 1961 6403
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57116,7 +57114,6 @@ EndChar
 StartChar: uni07AA
 Encoding: 1962 1962 6404
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57124,7 +57121,6 @@ EndChar
 StartChar: uni07AB
 Encoding: 1963 1963 6405
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57132,7 +57128,6 @@ EndChar
 StartChar: uni07AC
 Encoding: 1964 1964 6406
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57140,7 +57135,6 @@ EndChar
 StartChar: uni07AD
 Encoding: 1965 1965 6407
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57148,7 +57142,6 @@ EndChar
 StartChar: uni07AE
 Encoding: 1966 1966 6408
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57156,7 +57149,6 @@ EndChar
 StartChar: uni07AF
 Encoding: 1967 1967 6409
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -57164,7 +57156,6 @@ EndChar
 StartChar: uni07B0
 Encoding: 1968 1968 6410
 Width: 2048
-GlyphClass: 4
 Flags: HW
 LayerCount: 2
 EndChar
@@ -70022,27 +70013,27 @@ BDFChar: 6398 1956 6 1 5 0 5
 O<BVj#k.fo
 BDFChar: 6399 1957 6 1 4 0 5
 5[][m&7>J<
-BDFChar: 6400 1958 6 2 2 7 8
+BDFChar: 6400 1958 0 2 2 7 8
 J:IV"
-BDFChar: 6401 1959 6 2 4 7 8
+BDFChar: 6401 1959 0 2 4 7 8
 TV)8b
-BDFChar: 6402 1960 6 2 2 -3 -2
+BDFChar: 6402 1960 0 2 2 -3 -2
 J:IV"
-BDFChar: 6403 1961 6 2 4 -3 -2
+BDFChar: 6403 1961 0 2 4 -3 -2
 TV)8b
-BDFChar: 6404 1962 6 1 2 7 8
+BDFChar: 6404 1962 0 1 2 7 8
 ^d%l"
-BDFChar: 6405 1963 6 1 4 7 8
+BDFChar: 6405 1963 0 1 4 7 8
 n5')b
-BDFChar: 6406 1964 6 2 3 7 8
+BDFChar: 6406 1964 0 2 3 7 8
 JA;-b
-BDFChar: 6407 1965 6 2 5 7 8
+BDFChar: 6407 1965 0 2 5 7 8
 T^Vp]
-BDFChar: 6408 1966 6 2 4 7 9
+BDFChar: 6408 1966 0 2 4 7 9
 TKo.M
-BDFChar: 6409 1967 6 2 5 7 8
+BDFChar: 6409 1967 0 2 5 7 8
 OC/%g
-BDFChar: 6410 1968 6 2 4 7 9
+BDFChar: 6410 1968 0 2 4 7 9
 5bL@B
 BDFChar: 6411 1969 6 1 5 0 5
 E/9<hJ9V%o
