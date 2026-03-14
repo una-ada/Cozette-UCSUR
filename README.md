@@ -30,7 +30,7 @@ totally just leeching off the build scripts).
   - [ ] `U+0600..U+06FF` Arabic
   - [ ] `U+0700..U+074F` Syriac
   - [ ] `U+0750..U+077F` Arabic Supplement
-  - [ ] `U+0780..U+07BF` Thaana
+  - [x] `U+0780..U+07BF` Thaana
   - [ ] `U+07C0..U+07FF` N'Ko
   - [ ] `U+0800..U+083F` Samaritan
   - [ ] `U+0840..U+085F` Mandaic
@@ -85,7 +85,7 @@ totally just leeching off the build scripts).
   - [ ] `U+1D00..U+1D7F` Phonetic Extensions
   - [ ] `U+1D80..U+1DBF` Phonetic Extensions Supplement
   - [ ] `U+1DC0..U+1DFF` Combining Diacritical Marks Supplement
-  - [ ] `U+1E00..U+1EFF` Latin Extended Additional
+  - [x] `U+1E00..U+1EFF` Latin Extended Additional
   - [ ] `U+1F00..U+1FFF` Greek Extended
   - [ ] `U+2000..U+206F` General Punctuation
   - [ ] `U+2070..U+209F` Superscripts and Subscripts
@@ -96,17 +96,10 @@ totally just leeching off the build scripts).
   - [ ] `U+2190..U+21FF` Arrows
   - [ ] `U+2200..U+22FF` Mathematical Operators
   - [ ] `U+2300..U+23FF` Miscellaneous Technical
-  - [ ] `U+2400..U+243F` Control Pictures
-  - [ ] `U+2440..U+245F` Optical Character Recognition
-  - [ ] `U+2460..U+24FF` Enclosed Alphanumerics
-  - [ ] `U+2500..U+257F` Box Drawing
-  - [ ] `U+2580..U+259F` Block Elements
-  - [ ] `U+25A0..U+25FF` Geometric Shapes
   - [ ] `U+2600..U+26FF` Miscellaneous Symbols
   - [ ] `U+2700..U+27BF` Dingbats
   - [ ] `U+27C0..U+27EF` Miscellaneous Mathematical Symbols-A
   - [ ] `U+27F0..U+27FF` Supplemental Arrows-A
-  - [ ] `U+2800..U+28FF` Braille Patterns
   - [ ] `U+2900..U+297F` Supplemental Arrows-B
   - [ ] `U+2980..U+29FF` Miscellaneous Mathematical Symbols-B
   - [ ] `U+2A00..U+2AFF` Supplemental Mathematical Operators
@@ -124,8 +117,6 @@ totally just leeching off the build scripts).
   - [ ] `U+2FE0..U+2FEF` Unassigned
   - [ ] `U+2FF0..U+2FFF` Ideographic Description Characters
   - [ ] `U+3000..U+303F` CJK Symbols and Punctuation
-  - [ ] `U+3040..U+309F` Hiragana
-  - [ ] `U+30A0..U+30FF` Katakana
   - [ ] `U+3100..U+312F` Bopomofo
   - [ ] `U+3130..U+318F` Hangul Compatibility Jamo
   - [ ] `U+3190..U+319F` Kanbun
@@ -172,7 +163,6 @@ totally just leeching off the build scripts).
   - [ ] `U+FE10..U+FE1F` Vertical Forms
   - [ ] `U+FE20..U+FE2F` Combining Half Marks
   - [ ] `U+FE30..U+FE4F` CJK Compatibility Forms
-  - [ ] `U+FE50..U+FE6F` Small Form Variants
   - [ ] `U+FE70..U+FEFF` Arabic Presentation Forms-B
   - [ ] `U+FF00..U+FFEF` Halfwidth and Fullwidth Forms
   - [ ] `U+FFF0..U+FFFF` Specials
@@ -206,11 +196,11 @@ totally just leeching off the build scripts).
   - [ ] `U+010860..U+01087F` Palmyrene
   - [ ] `U+010880..U+0108AF` Nabataean
   - [ ] `U+0108E0..U+0108FF` Hatran
-  - [ ] `U+010900..U+01091F` Phoenecian
+  - [x] `U+010900..U+01091F` Phoenecian
   - [ ] `U+010920..U+01093F` Lydian
   - [ ] `U+010940..U+01095F` Sidetic
-  - [ ] `U+010980..U+01099F` Meroitic Hieroglyphs
-  - [ ] `U+0109A0..U+0109FF` Meroitic Cursive
+  - [x] `U+010980..U+01099F` Meroitic Hieroglyphs
+  - [x] `U+0109A0..U+0109FF` Meroitic Cursive
   - [ ] `U+010A00..U+010A5F` Kharoshthi
   - [ ] `U+010A60..U+010A7F` Old South Arabian
   - [ ] `U+010A80..U+010A9F` Old North Arabian
@@ -300,14 +290,12 @@ totally just leeching off the build scripts).
   - [ ] `U+01B170..U+01B2FF` Nushu
   - [ ] `U+01BC00..U+01BC9F` Duployan
   - [ ] `U+01BCA0..U+01BCAF` Shorthand Format Controls
-  - [ ] `U+01CC00..U+01CEBF` Symbols for Legacy Computing
   - [ ] `U+01CEC0..U+01CEFF` Miscellaneous Symbols Supplement
   - [ ] `U+01CF00..U+01CFCF` Znamenny Musical Notation
   - [ ] `U+01D000..U+01D0FF` Byzantine Musical Symbols
   - [ ] `U+01D100..U+01D1FF` Musical Symbols
   - [ ] `U+01D200..U+01D24F` Ancient Greek Musical Notation
   - [ ] `U+01D2E0..U+01D2FF` Mayan Numerals
-  - [ ] `U+01D300..U+01D35F` Tai Xuan Jing Symbols
   - [ ] `U+01D360..U+01D37F` Counting Rod Numerals
   - [ ] `U+01D400..U+01D7FF` Mathematical Alphanumeric Symbols
   - [ ] `U+01D800..U+01DAAF` Sutton SignWriting
@@ -339,7 +327,6 @@ totally just leeching off the build scripts).
   - [ ] `U+01F900..U+01F9FF` Supplemental Symbols and Pictographs
   - [ ] `U+01FA00..U+01FA6F` Chess Symbols
   - [ ] `U+01FA70..U+01FAFF` Symbols and Pictographs Extended-A
-  - [ ] `U+01FB00..U+01FBFF` Symbols for Legacy Computing
 - [ ] Under-ConScript Unicode Registry
   - [ ] `U+E000..U+E07F` Tengwar
   - [ ] `U+E080..U+E0FF` Cirth
