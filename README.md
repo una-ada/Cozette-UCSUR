@@ -25,7 +25,7 @@ totally just leeching off the build scripts).
 # Roadmap 
 
 - [ ] Unicode Basic Multilingual Plane
-  - [ ] `U+0530..U+058F` Armenian
+  - [x] `U+0530..U+058F` Armenian
   - [ ] `U+0590..U+05FF` Hebrew
   - [ ] `U+0600..U+06FF` Arabic
   - [ ] `U+0700..U+074F` Syriac

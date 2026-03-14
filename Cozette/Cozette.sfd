@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1773464602
+ModificationTime: 1773465109
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -122,11 +122,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 1280 16 12
+WinInfo: 7808 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 6576
+BeginChars: 1114112 6580
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -58310,8 +58310,36 @@ Width: 2048
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: uni1EFA
+Encoding: 7930 7930 6576
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1EFB
+Encoding: 7931 7931 6577
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1EFE
+Encoding: 7934 7934 6578
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1EFF
+Encoding: 7935 7935 6579
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 6581 10 3 1
+BitmapFont: 13 6585 10 3 1
 BDFStartProperties: 42
 FONT 1 "-inesw-Cozette-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2025 Ines @ the.moonwit.ch"
@@ -71519,6 +71547,14 @@ BDFChar: 6574 1422 12 1 11 -2 8
 *rn'H8O0[kb+P"BWaOAM;Eu[]*rl9@
 BDFChar: 6575 1423 6 1 5 0 7
 @$$I0&3(44
+BDFChar: 6576 7930 6 1 5 0 7
+TV.sNTV.sf
+BDFChar: 6577 7931 6 1 5 0 8
+;#!j`:f'tb:]LIq
+BDFChar: 6578 7934 6 1 5 0 7
+Lkpk3#Y:n5
+BDFChar: 6579 7935 6 1 5 -3 5
+LkpkCGR-j=Du]k<
 BDFRefChar: 1998 1943 0 0 N
 BDFRefChar: 1999 1942 0 0 N
 BDFRefChar: 2000 1940 0 0 N
