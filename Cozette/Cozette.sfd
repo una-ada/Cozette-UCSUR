@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1773538099
+ModificationTime: 1773539800
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -122,11 +122,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 11520 16 12
+WinInfo: 66176 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 6195
+BeginChars: 1114112 6241
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -54433,8 +54433,330 @@ Width: 1890
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: u102A0
+Encoding: 66208 66208 6195
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A1
+Encoding: 66209 66209 6196
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A2
+Encoding: 66210 66210 6197
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A3
+Encoding: 66211 66211 6198
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A4
+Encoding: 66212 66212 6199
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A5
+Encoding: 66213 66213 6200
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A7
+Encoding: 66215 66215 6201
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A8
+Encoding: 66216 66216 6202
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102A9
+Encoding: 66217 66217 6203
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102AA
+Encoding: 66218 66218 6204
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102AB
+Encoding: 66219 66219 6205
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102AC
+Encoding: 66220 66220 6206
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102AD
+Encoding: 66221 66221 6207
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102AE
+Encoding: 66222 66222 6208
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102AF
+Encoding: 66223 66223 6209
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B0
+Encoding: 66224 66224 6210
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B1
+Encoding: 66225 66225 6211
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B2
+Encoding: 66226 66226 6212
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B3
+Encoding: 66227 66227 6213
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B4
+Encoding: 66228 66228 6214
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B5
+Encoding: 66229 66229 6215
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B6
+Encoding: 66230 66230 6216
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B7
+Encoding: 66231 66231 6217
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B8
+Encoding: 66232 66232 6218
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102B9
+Encoding: 66233 66233 6219
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102BA
+Encoding: 66234 66234 6220
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102BB
+Encoding: 66235 66235 6221
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102BC
+Encoding: 66236 66236 6222
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102BD
+Encoding: 66237 66237 6223
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102BE
+Encoding: 66238 66238 6224
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102BF
+Encoding: 66239 66239 6225
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C0
+Encoding: 66240 66240 6226
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C1
+Encoding: 66241 66241 6227
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C2
+Encoding: 66242 66242 6228
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C3
+Encoding: 66243 66243 6229
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C4
+Encoding: 66244 66244 6230
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C5
+Encoding: 66245 66245 6231
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C6
+Encoding: 66246 66246 6232
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C7
+Encoding: 66247 66247 6233
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102C8
+Encoding: 66248 66248 6234
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102CA
+Encoding: 66250 66250 6235
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102CB
+Encoding: 66251 66251 6236
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102CC
+Encoding: 66252 66252 6237
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102CD
+Encoding: 66253 66253 6238
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102CE
+Encoding: 66254 66254 6239
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u102D0
+Encoding: 66256 66256 6240
+Width: 1890
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 6801 10 3 1
+BitmapFont: 13 6847 10 3 1
 BDFStartProperties: 42
 FONT 1 "-inesw-Cozette-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2025 Ines @ the.moonwit.ch"
@@ -60784,8 +61106,8 @@ BDFChar: 2627 65363 12 4 8 0 5
 G^s`=#k.fo
 BDFChar: 2628 65903 6 1 5 0 8
 pkX`Vn;r`nO8o7\
-BDFChar: 2629 66214 6 2 4 0 8
-i'9Om5X7S"huE`W
+BDFChar: 2629 66214 6 2 4 0 7
+i'9Om5X7Tm
 BDFChar: 2630 66249 6 1 5 0 8
 0L1/=Y_\*kDu]k<
 BDFChar: 2631 66255 6 1 5 0 8
@@ -68081,6 +68403,98 @@ BDFChar: 6192 11632 6 1 5 0 7
 BDFChar: 6193 11631 6 2 4 8 9
 T\oeM
 BDFChar: 6194 11647 0 5 5 0 0
+z
+BDFChar: 6195 66208 6 1 5 0 7
++<XKW;##j&
+BDFChar: 6196 66209 6 1 5 0 7
+n;)niLkplV
+BDFChar: 6197 66210 6 1 5 0 7
+3'`"EJ:KmE
+BDFChar: 6198 66211 6 1 5 0 7
++<XKW:l'r&
+BDFChar: 6199 66212 6 1 5 0 7
+i0]&QR"4+^
+BDFChar: 6200 66213 6 1 5 0 7
+i0]&QR"0^;
+BDFChar: 6201 66215 6 1 5 0 7
+pkXb$Lkpl^
+BDFChar: 6202 66216 6 1 5 0 7
+E2]`1W2QY6
+BDFChar: 6203 66217 6 1 5 0 7
+i0]%FJ:N0#
+BDFChar: 6204 66218 6 1 5 0 7
+LrcN^Lk(#+
+BDFChar: 6205 66219 6 1 5 0 7
+E/9=+Lkpk+
+BDFChar: 6206 66220 6 1 5 0 7
+E/9=+J:N0#
+BDFChar: 6207 66221 6 1 5 0 7
+E/9=+E$-8G
+BDFChar: 6208 66222 6 1 5 0 7
+#^D/]Lj012
+BDFChar: 6209 66223 6 1 5 0 7
+n;)ni^n?d>
+BDFChar: 6210 66224 6 4 4 8 8
+z
+BDFChar: 6211 66225 6 4 4 8 8
+z
+BDFChar: 6212 66226 6 4 4 8 8
+z
+BDFChar: 6213 66227 6 4 4 8 8
+z
+BDFChar: 6214 66228 6 4 4 8 8
+z
+BDFChar: 6215 66229 6 4 4 8 8
+z
+BDFChar: 6216 66230 6 4 4 8 8
+z
+BDFChar: 6217 66231 6 4 4 8 8
+z
+BDFChar: 6218 66232 6 4 4 8 8
+z
+BDFChar: 6219 66233 6 4 4 8 8
+z
+BDFChar: 6220 66234 6 4 4 8 8
+z
+BDFChar: 6221 66235 6 4 4 8 8
+z
+BDFChar: 6222 66236 6 4 4 8 8
+z
+BDFChar: 6223 66237 6 4 4 8 8
+z
+BDFChar: 6224 66238 6 4 4 8 8
+z
+BDFChar: 6225 66239 6 4 4 8 8
+z
+BDFChar: 6226 66240 6 4 4 8 8
+z
+BDFChar: 6227 66241 6 4 4 8 8
+z
+BDFChar: 6228 66242 6 4 4 8 8
+z
+BDFChar: 6229 66243 6 4 4 8 8
+z
+BDFChar: 6230 66244 6 4 4 8 8
+z
+BDFChar: 6231 66245 6 4 4 8 8
+z
+BDFChar: 6232 66246 6 4 4 8 8
+z
+BDFChar: 6233 66247 6 4 4 8 8
+z
+BDFChar: 6234 66248 6 4 4 8 8
+z
+BDFChar: 6235 66250 6 4 4 8 8
+z
+BDFChar: 6236 66251 6 4 4 8 8
+z
+BDFChar: 6237 66252 6 4 4 8 8
+z
+BDFChar: 6238 66253 6 4 4 8 8
+z
+BDFChar: 6239 66254 6 4 4 8 8
+z
+BDFChar: 6240 66256 6 4 4 8 8
 z
 BDFRefChar: 1607 1552 0 0 N
 BDFRefChar: 1608 1551 0 0 N
