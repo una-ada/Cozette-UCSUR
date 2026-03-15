@@ -177,7 +177,7 @@ totally just leeching off the build scripts).
   - [x] `U+0102A0..U+0102DF` Carian
   - [ ] `U+0102E0..U+0102FF` Coptic Epact Numbers
   - [x] `U+010300..U+01032F` Old Italic
-  - [ ] `U+010330..U+01034F` Gothic
+  - [x] `U+010330..U+01034F` Gothic
   - [ ] `U+010350..U+01037F` Old Permic
   - [ ] `U+010380..U+01039F` Ugaritic
   - [ ] `U+0103A0..U+0103DF` Old Persian
