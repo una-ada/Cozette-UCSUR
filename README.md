@@ -197,7 +197,7 @@ totally just leeching off the build scripts).
   - [ ] `U+010880..U+0108AF` Nabataean
   - [ ] `U+0108E0..U+0108FF` Hatran
   - [x] `U+010900..U+01091F` Phoenecian
-  - [ ] `U+010920..U+01093F` Lydian
+  - [x] `U+010920..U+01093F` Lydian
   - [ ] `U+010940..U+01095F` Sidetic
   - [x] `U+010980..U+01099F` Meroitic Hieroglyphs
   - [x] `U+0109A0..U+0109FF` Meroitic Cursive
