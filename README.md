@@ -170,7 +170,7 @@ totally just leeching off the build scripts).
   - [ ] `U+010000..U+01007F` Linear B Syllabary
   - [ ] `U+010080..U+0100FF` Linear B Ideograms
   - [ ] `U+010100..U+01013F` Aegean Numbers
-  - [ ] `U+010140..U+01018F` Ancient Greek Numbers
+  - [x] `U+010140..U+01018F` Ancient Greek Numbers
   - [ ] `U+010190..U+0101CF` Ancient Symbols
   - [ ] `U+0101D0..U+0101FF` Phaistos Disc
   - [x] `U+010280..U+01029F` Lycian
