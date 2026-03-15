@@ -106,7 +106,7 @@ totally just leeching off the build scripts).
   - [ ] `U+2B00..U+2BFF` Miscellaneous Symbols and Arrows
   - [ ] `U+2C00..U+2C5F` Glagolithic
   - [ ] `U+2C60..U+2C7F` Latin Extended-C
-  - [ ] `U+2C80..U+2CFF` Coptic
+  - [x] `U+2C80..U+2CFF` Coptic
   - [ ] `U+2D00..U+2D2F` Georgian Supplement
   - [x] `U+2D30..U+2D7F` Tifinagh
   - [ ] `U+2D80..U+2DDF` Ethiopic Extended
