@@ -95,8 +95,7 @@ def save_sample(
     subprocess.run(
         [
             "xterm",
-            "-en",
-            "utf8",
+            "-lc",
             "-fg",
             fgcolor,
             "-bg",
@@ -178,20 +177,6 @@ def sfd_codepoints(sfd: Path) -> List[int]:
     return sorted(codepoints)
 
 
-def make_charlist_text(sfd: Path) -> str:
-    text = ""
-    for c in sfd_codepoints(sfd):
-        if not (category(chr(c)).startswith(("Z", "Cc", "Cf"))):
-            if 0x300 <= c < 0x370:
-                text += f" {chr(c)} "
-            else:
-                ch = chr(c)
-                text += ch if charwidth(ch) in "FWN" else f"{ch} "
-        else:
-            print("Skipping", c, category(chr(c)))
-    return text
-
-
 def stitch_charmap(files: List[Path], target: Path):
     images = [
         im.crop((0, 2, im.width, im.height - 2))
@@ -211,20 +196,6 @@ def stitch_charmap(files: List[Path], target: Path):
 
 
 def save_charlist(fnt: str, sfd: Path, output_dir: Path):
-    text = make_charlist_text(sfd)
-    sample = wrap_text(text)
-    sample = Sample(text, sample.width + 1, sample.height)
-    with (output_dir / "characters.txt").open("w") as f:
-        f.write(text)
-    save_sample(
-        fnt,
-        sample,
-        output_dir / "characters.png",
-        fgcolor="#24292e",
-        bgcolor="#ffffff",
-    )
-    expand(output_dir / "characters.png", color="#ffffff")
-
     charmap = make_charmap(sfd)
     with (output_dir / "charmap.txt").open("w") as f:
         f.write(" ")
