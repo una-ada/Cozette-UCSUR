@@ -1,252 +1,399 @@
-# Cozette
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/the-moonwitch/Cozette?logo=github&style=flat-square)](https://github.com/the-moonwitch/Cozette/releases/latest)
-[![AUR version](https://img.shields.io/aur/version/cozette-otb?color=%231793d1&label=AUR&logo=arch-linux&logoColor=%23fff&style=flat-square)](https://aur.archlinux.org/packages/cozette-otb/)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/the-moonwitch/Cozette/Build%20fonts?logo=github&style=flat-square)
-![GitHub All Releases](https://img.shields.io/github/downloads/the-moonwitch/Cozette/total?style=flat-square)
-[![GitHub license](https://img.shields.io/github/license/the-moonwitch/Cozette?style=flat-square)](https://github.com/the-moonwitch/Cozette/blob/master/LICENSE)
+# Cozette-(U)CSUR
 
 ![Cozette](./img/sample.png)
 
 A bitmap programming font optimized for coziness.
 
-![Cozette in Nvim](./img/vim.png)
-
 # Contents
 
 - [About Cozette](#about-cozette)
-- [Installation](#installation)
-  - [Linux](#linux)
-  - [Mac](#mac)
-  - [Windows](#windows)
-  - [Notes on specific applications](#notes-on-specific-applications)
-    - [Dmenu](#dmenu)
-    - [VSCode, general GUI applications](#vscode-general-gui-applications)
-    - [Kitty](#kitty)
-  - [Variants](#variants)
 - [Roadmap](#roadmap)
-- [Recommended alternatives](#recommended-alternatives)
-- [Character map](#character-map)
 - [Building](#building)
 - [Contributors](#contributors)
 - [License](#license--acknowledgements)
 
-# About Cozette
+# About Cozette-(U)CSUR
 
-Cozette is a 6x13px (bounding box; average 5px character width, 3px
-descent, 10px ascent, 8px cap height) bitmap font based on [Dina], which
-itself is based on [Proggy].
-It's also heavily inspired by [Creep]. I absolutely adore Creep, and was
-using it up until I got a higher-DPI screen for which it was slightly too
-small. That prompted me to make the bitmap font I always wished existed:
-Cozette; a small-but-not-tiny bitmap font with great coverage of all the
-glyphs _you_ might encounter in the terminal:
+Cozette-(U)CSUR is a fork of Cozette, a 6x13px (bounding box; average 5px
+character width, 3px descent, 10px ascent, 8px cap height) bitmap font based
+on [Dina], which itself is based on [Proggy]; also heavily inspired by [Creep].
+The original Cozette is designed as a bitmap alternative to [nerd fonts];
+whereas Cozette-(U)CSUR is the result of my personal appreciation for the style
+of Cozette and desire to see it extended to more of Unicode and (U)CSUR (also
+totally just leeching off the build scripts).
 
-![glyphs in Cozette](./img/characters.png)
+# Roadmap 
 
-I'm intentionally putting the emphasis on "you" - although Cozette already
-has all the glyphs I've seen in my CLI tools so far, _you_ might find it's
-missing a glyph you wish it had. If that's the case, _please [file an issue]_!
-It's an important goal for Cozette to be a useful bitmap alternative to
-[Nerd Fonts].
-
-A nicer character map that includes the codepoints can be found at
-[the bottom of this README]!
-
-# Installation
-
-### [You can get Cozette over at the Releases tab]!
-
-## Variants and Sizes
-
-Cozette is distributed in three main variants: normal and hi-dpi (upscaled 2x) bitmaps 
-(`.bdf`, `.otb`, `.psf`, and `.fnt`), and vectors (`.ttf`).
-
-Font scaling varies wildly from system to system, and sometimes even from
-program to program and font format to format. On my system (Linux), `cozette.otb`
-looks right at 13pts; `cozette_hidpi.otb` looks right at 26pts and downscales 
-quite elegantly to 10pts; `CozetteVector` doesn't look right at any size (technically,
-it will look right specifically at 9.4pts on a 100dpi screen on Linux, but pixel-perfect
-bitmap fonts are a massive headache, treated differently by every OS, that I'm not quite sure how to solve)
-
-Bitmap fonts are, effectively, just that - bitmaps. They scale terribly, but
-look nice and sharp (and pixel-perfect) at one specific point
-size. Vector fonts scale well, but in this case, might look ugly at
-smaller point sizes because of antialiasing issues and the like.
-
-<h3>NOTE:</h3>
-The vector formats (`CozetteVector`) are provided as a compatibility feature.
-Rendering of vectorized bitmap-like fonts is <em>terrible</em> on virtually all operating systems.
-  
-If Cozette looks awful on your system, you probably have a vector version.
-<em>Please</em> use the bitmap formats (`.otb`) if you can.
-
-Issues with vector formats will almost certainly <em>not</em> be fixed or 
-addressed; Cozette is a bitmap font first and foremost, and building a
-bitmap font that builds from a single source and looks good both in its intended,
-bitmap font as well as as the auto-vectorized format, on every OS, seems to be an unsolved problem. 
-
-### Linux
-
-The preferred format is `.otb` (for bitmaps) or `.ttf`
-(for CozetteVector). To install the font, just throw it in your fonts directory
-(you probably want to follow your distro's instructions). On Ubuntu you might need to
-[specifically enable bitmap fonts].
-
-**If you're on Void**, [ifreund] made [a Void package](https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-cozette) for the .otb! Install it
-using XBPS:
-
-```
-$ sudo xbps-install font-cozette
-```
-
-**If you're on Arch**, [ifreund] made [an AUR package] for the .otb! Install it
-using your AUR helper of choice:
-
-```
-$ yay -S cozette-otb
-```
-
-Or, if you're not using an AUR helper:
-
-```
-$ git clone https://aur.archlinux.org/cozette-otb.git
-$ cd cozette-otb
-$ makepkg -si
-```
-
-### Mac
-
-Download the `.dfont` and install it with `Font Book .app`. Both the bitmap
-`Cozette.dfont` and the vector `CozetteVector.dfont` should work.
-
-### Windows
-
-Grab `CozetteVector.ttf`. If you want to get the bitmap versions to work,
-[follow the instructions from here].
-
-### FreeBSD
-
-[laxul] made a [port] for the `.otb`!
-
-* pkg: `pkg install cozette`
-* ports: `cd /usr/ports/x11-fonts/cozette; make install clean`
-
-### Other BSD / Solaris / Haiku / Other
-
-You know what you're doing.
-
-### Notes on specific applications
-
-#### Dmenu
-
-`dmenu` (and reportedly some other applications, like `urxvt`) seems slightly
-fucky when it comes to dealing with font spacing. I cannot tell if this is an
-issue with Cozette specifically or with the font rendering in those
-applications, but they seem to pull the font spacing from your system's default
-monospace font for whatever reason. If setting Cozette as your system default
-is not an option (I don't recommend it, a lot of applications have problems
-with bitmap fonts), try using `Cozette-<size>` as the font name, ie.
-`Cozette-8`.
-
-#### VSCode, general GUI applications
-
-VSCode and a lot of other GUI applications don't support bitmap fonts, so you
-will want to use CozetteVector there. In applications that do support bitmap
-fonts, you will want to use the normal, bitmap Cozette (unless it's too
-small for you, in which case, CozetteVector scales better).
-
-#### VSCode Letter Spacing
-
-Sometimes the font might render without proper space betweening the characters (font size set to 13):
-
-![vscode-before-letterspacing](https://github.com/user-attachments/assets/a26eab50-a92e-4a9d-b72f-bbdfcd8b7be7)
-
-To fix this you need to set (in your settings):
-- terminal.integrated.letterSpacing to 1
-
-![vscode-settings-fix-incorrect-letterspacing](https://github.com/user-attachments/assets/1936c07a-f45b-4476-8d49-bd489ff9b9ae)
-
-After that your terminal should look like this (font size set to 13):
-
-![vscode-after-letterspacing](https://github.com/user-attachments/assets/dbd9e722-8503-45cd-aac3-c8fcc9fc2c1e)
-
-_Note: VSCode also provides the option editor.letterSpacing which adjusts the spacing for the file editor._
-
-#### Kitty
-
-**[4e554c4c](https://github.com/4e554c4c) made [an AUR package for `kitty` patched to support bitmap fonts](https://aur.archlinux.org/packages/kitty-bitmap/).**
-
-> `if you like bitmap fonts, kitty is not for you.`
-
-**According to its author, `kitty` [doesn't, and never will, support bitmap fonts](https://github.com/kovidgoyal/kitty/issues/97#issuecomment-373970232)**.
-
-If you _really_ want to get Cozette working, you can try the [AUR package mentioned above](https://aur.archlinux.org/packages/kitty-bitmap/), or apply [the patch there](https://aur.archlinux.org/cgit/aur.git/tree/Allow-bitmap-fonts.patch?h=kitty-bitmap) yourself.
-
-If that doesn't work, you can try the trick from [here](https://github.com/kovidgoyal/kitty/issues/97#issuecomment-579094656); if you
-explicitly set Cozette(Vector)'s `spacing` to 100, and `scalable` to `true` in `fontconfig`, `kitty` _should_ accept it.
-
-You can also make Cozette work flawlessly by uninstalling `kitty` and using a terminal emulator for which _not rendering fonts_ isn't a design principle - I cannot recommend [alacritty](https://github.com/alacritty/alacritty/) enough. it's excellent, has worked flawlessly for me for quite some time, and both configuring and getting bitmap fonts to work in it is a breeze.
-
-(The support was discussed in [the-moonwitch/Cozette#18](https://github.com/the-moonwitch/Cozette/issues/18). Many thanks to all the participants there, especially to to Luflosi, who brought up flipping the `allow_bitmapped_fonts` flag in [their fork](https://github.com/Luflosi/kitty/commit/e645e0b5ed084c2c57ecfb8acafc07e76f5717bb), and to [4e554c4c](https://github.com/4e554c4c), who made the AUR package.)
-
-# Roadmap
-
-Check the [CHANGELOG] for the latest news!
-
-Here's where Cozette is so far, in the rough order the features are going to be
-implemented:
-
-- [x] ASCII
-- [x] Powerline
-- [x] Build scripts to handle exporting
-- [x] Box-drawing (mostly)
-- [x] Braille
-- [x] Cyrillic!
-- [x] IPA glyphs!
-- [x] APL glyphs (based on the list from [APL386](https://abrudz.github.io/APL386/))!
-- [x] [Uiua](https://www.uiua.org/) glyphs!
-- [x] [BQN](https://mlochbaum.github.io/BQN/fonts.html) glyphs!
-- [x] Fullwidth kana!
-- [ ] Nerdfonts:
-  - [x] nf-pom-\*
-  - [x] nf-seti-\*
-  - [ ] nf-dev-\* (partial)
-  - [ ] nf-weather-\*
-- [x] Glyph map generation (so I don't have to keep `characters.png` up to
-      date)
-- [x] "True" TTF version
-  - [x] Windows support
-- [x] Full [vim-airline] and [bufferline.nvim] support!
-- [x] Full [ranger_devicons] support!
-- [x] [starship] supported out of the box!
-- [x] Full [powerlevel10k] support! (if it doesn't work, try setting
-      `POWERLEVEL9K_MODE` to `nerdfont-complete`)
-- [x] All glyphs used by [maturin](https://github.com/PyO3/maturin) and many other CLI tools!
-- [x] Charmap including the code points (to make it easier for users to
-      report issues/request additions)
-- [x] Codepoints above U+FFFF in vector fonts
-- [x] Upscaled hi-dpi variant
-- [x] Crossed seven variant!
-  ![Crossed seven demo](./img/crossed_seven.png)
-
-# Recommended alternatives
-
-Cozette is, intentionally, a very small font. If neither the base nor the 
-[HiDpi](#variants) version fit your needs, you might want to look at some
-other bitmap fonts with extra glyphs. A couple of my favorites are
-[Tamzen](https://github.com/sunaku/tamzen-font/)
-and [Envypn](https://github.com/Sorixelle/envypn-powerline). You might also
-find the [Tecate/bitmap-fonts repo](https://github.com/Tecate/bitmap-fonts)
-useful.
-
-# Character map
-
-For easy copy-pasting, the character map is provided in text form in
-[img/charmap.txt](./img/charmap.txt). If you just want to see how the glyphs
-look in Cozette, here is a screenshot of it:
-
-![Character map](./img/charmap.png)
+- [ ] Unicode Basic Multilingual Plane
+  - [x] `U+0530..U+058F` Armenian
+  - [ ] `U+0590..U+05FF` Hebrew
+  - [ ] `U+0600..U+06FF` Arabic
+  - [ ] `U+0700..U+074F` Syriac
+  - [ ] `U+0750..U+077F` Arabic Supplement
+  - [x] `U+0780..U+07BF` Thaana
+  - [ ] `U+07C0..U+07FF` N'Ko
+  - [ ] `U+0800..U+083F` Samaritan
+  - [ ] `U+0840..U+085F` Mandaic
+  - [ ] `U+0860..U+086F` Syriac Supplement
+  - [ ] `U+0870..U+089F` Arabic Extended-B
+  - [ ] `U+08A0..U+08FF` Arabic Extended-A
+  - [ ] `U+0900..U+097F` Devanagari
+  - [ ] `U+0980..U+09FF` Bengali
+  - [ ] `U+0A00..U+0A7F` Gurmukhi
+  - [ ] `U+0A80..U+0AFF` Gujarati
+  - [ ] `U+0B00..U+0B7F` Oriya
+  - [ ] `U+0B80..U+0BFF` Tamil
+  - [ ] `U+0C00..U+0C7F` Telugu
+  - [ ] `U+0C80..U+0CFF` Kannada
+  - [ ] `U+0D00..U+0D7F` Malayalam
+  - [ ] `U+0D80..U+0DFF` Sinhala
+  - [ ] `U+0E00..U+0E7F` Thai
+  - [ ] `U+0E80..U+0EFF` Lao
+  - [ ] `U+0F00..U+0FFF` Tibetan
+  - [ ] `U+1000..U+109F` Myanmar
+  - [ ] `U+10A0..U+10FF` Georgian
+  - [ ] `U+1100..U+11FF` Hangul Jamo
+  - [ ] `U+1200..U+137F` Ethiopic
+  - [ ] `U+1380..U+139F` Ethiopic Supplement
+  - [ ] `U+13A0..U+13FF` Cherokee
+  - [ ] `U+1400..U+167F` Unified Canadian Aboriginal Syllabics
+  - [ ] `U+1680..U+169F` Ogham
+  - [ ] `U+16A0..U+16FF` Runic
+  - [ ] `U+1700..U+171F` Tagalog
+  - [ ] `U+1720..U+173F` Hanunoo
+  - [ ] `U+1740..U+175F` Buhid
+  - [ ] `U+1760..U+177F` Tagbanwa
+  - [ ] `U+1780..U+17FF` Khmer
+  - [ ] `U+1800..U+18AF` Mongolian
+  - [ ] `U+18B0..U+18FF` Unified Canadian Aboriginal Syllabics Extended
+  - [ ] `U+1900..U+194F` Limbu
+  - [ ] `U+1950..U+197F` Tai Le
+  - [ ] `U+1980..U+19DF` New Tai Lue
+  - [ ] `U+19E0..U+19FF` Khmer Symbols
+  - [ ] `U+1A00..U+1A1F` Buginese
+  - [ ] `U+1A20..U+1AAF` Tai Tham
+  - [ ] `U+1AB0..U+1AFF` Combining Diacritical Marks Extended
+  - [ ] `U+1B00..U+1B7F` Balinese
+  - [ ] `U+1B80..U+1BBF` Sundanese
+  - [ ] `U+1BC0..U+1BFF` Batak
+  - [ ] `U+1C00..U+1C4F` Lepcha
+  - [ ] `U+1C50..U+1C7F` Ol Chiki
+  - [ ] `U+1C80..U+1C8F` Cyrillic Extended-C
+  - [ ] `U+1C90..U+1CBF` Georgian Extended
+  - [ ] `U+1CC0..U+1CCF` Sundanese Supplement
+  - [ ] `U+1CD0..U+1CFF` Vedic Extensions
+  - [ ] `U+1D00..U+1D7F` Phonetic Extensions
+  - [ ] `U+1D80..U+1DBF` Phonetic Extensions Supplement
+  - [ ] `U+1DC0..U+1DFF` Combining Diacritical Marks Supplement
+  - [x] `U+1E00..U+1EFF` Latin Extended Additional
+  - [ ] `U+1F00..U+1FFF` Greek Extended
+  - [ ] `U+2000..U+206F` General Punctuation
+  - [ ] `U+2070..U+209F` Superscripts and Subscripts
+  - [ ] `U+20A0..U+20CF` Currency Symbols
+  - [ ] `U+20D0..U+20FF` Combining Diacritical Marks for Symbols
+  - [ ] `U+2100..U+214F` Letterlike Symbols
+  - [ ] `U+2150..U+218F` Number Forms
+  - [ ] `U+2190..U+21FF` Arrows
+  - [ ] `U+2200..U+22FF` Mathematical Operators
+  - [ ] `U+2300..U+23FF` Miscellaneous Technical
+  - [ ] `U+2600..U+26FF` Miscellaneous Symbols
+  - [ ] `U+2700..U+27BF` Dingbats
+  - [ ] `U+27C0..U+27EF` Miscellaneous Mathematical Symbols-A
+  - [ ] `U+27F0..U+27FF` Supplemental Arrows-A
+  - [ ] `U+2900..U+297F` Supplemental Arrows-B
+  - [ ] `U+2980..U+29FF` Miscellaneous Mathematical Symbols-B
+  - [ ] `U+2A00..U+2AFF` Supplemental Mathematical Operators
+  - [ ] `U+2B00..U+2BFF` Miscellaneous Symbols and Arrows
+  - [ ] `U+2C00..U+2C5F` Glagolithic
+  - [ ] `U+2C60..U+2C7F` Latin Extended-C
+  - [x] `U+2C80..U+2CFF` Coptic
+  - [ ] `U+2D00..U+2D2F` Georgian Supplement
+  - [x] `U+2D30..U+2D7F` Tifinagh
+  - [ ] `U+2D80..U+2DDF` Ethiopic Extended
+  - [ ] `U+2DE0..U+2DFF` Cyrillic Extended-A
+  - [ ] `U+2E00..U+2E7F` Supplemental Punctuation
+  - [ ] `U+2E80..U+2EFF` CJK Radicals Supplement
+  - [ ] `U+2F00..U+2FDF` Kangxi Radicals
+  - [ ] `U+2FE0..U+2FEF` Unassigned
+  - [ ] `U+2FF0..U+2FFF` Ideographic Description Characters
+  - [ ] `U+3000..U+303F` CJK Symbols and Punctuation
+  - [ ] `U+3100..U+312F` Bopomofo
+  - [ ] `U+3130..U+318F` Hangul Compatibility Jamo
+  - [ ] `U+3190..U+319F` Kanbun
+  - [ ] `U+31A0..U+31BF` Bopomofo Extended
+  - [ ] `U+31C0..U+31EF` CJK Strokes
+  - [ ] `U+31F0..U+31FF` Katakana Phonetic Extensions
+  - [ ] `U+3200..U+32FF` Enclosed CJK Letters and Months
+  - [ ] `U+3300..U+33FF` CJK Compatibility
+  - [ ] `U+3400..U+4DBF` CJK Unified Ideographs Extension A
+  - [ ] `U+4DC0..U+4DFF` Yijing Hexagram Symbols
+  - [ ] `U+4E00..U+9FFF` CJK Unified Ideographs
+  - [ ] `U+A000..U+A48F` Yi Syllables
+  - [ ] `U+A490..U+A4CF` Yi Radicals
+  - [ ] `U+A4D0..U+A4FF` Lisu
+  - [ ] `U+A500..U+A63F` Vai
+  - [ ] `U+A640..U+A69F` Cyrillic Extended-B
+  - [ ] `U+A6A0..U+A6FF` Bamum
+  - [ ] `U+A700..U+A71F` Modifier Tone Letters
+  - [ ] `U+A720..U+A7FF` Latin Extended-D
+  - [ ] `U+A800..U+A82F` Syloti Nagri
+  - [ ] `U+A830..U+A83F` Common Indic Number Forms
+  - [ ] `U+A840..U+A87F` Phags-pa
+  - [ ] `U+A880..U+A8DF` Saurashtra
+  - [ ] `U+A8E0..U+A8FF` Devanagari Extended
+  - [ ] `U+A900..U+A92F` Kayah Li
+  - [ ] `U+A930..U+A95F` Rejang
+  - [ ] `U+A960..U+A97F` Hangul Jamo Extended-A
+  - [ ] `U+A980..U+A9DF` Javanese
+  - [ ] `U+A9E0..U+A9FF` Myanmar Extended-B
+  - [ ] `U+AA00..U+AA5F` Cham
+  - [ ] `U+AA60..U+AA7F` Myanmar Extended-A
+  - [ ] `U+AA80..U+AADF` Tai Viet
+  - [ ] `U+AAE0..U+AAFF` Meetei Mayek Extensions
+  - [ ] `U+AB00..U+AB2F` Ethiopic Extended-A
+  - [ ] `U+AB30..U+AB6F` Latin Extended-E
+  - [ ] `U+AB70..U+ABBF` Cherokee Supplement
+  - [ ] `U+ABC0..U+ABFF` Meetei Mayek
+  - [ ] `U+AC00..U+D7AF` Hangul Syllables
+  - [ ] `U+D7B0..U+D7FF` Hangul Jamo Extended-B
+  - [ ] `U+F900..U+FAFF` CJK Compatibility Ideographs
+  - [ ] `U+FB00..U+FB4F` Alphabetic Presentation Forms
+  - [ ] `U+FB50..U+FDFF` Arabic Presentation Forms-A
+  - [ ] `U+FE00..U+FE0F` Variation Selectors
+  - [ ] `U+FE10..U+FE1F` Vertical Forms
+  - [ ] `U+FE20..U+FE2F` Combining Half Marks
+  - [ ] `U+FE30..U+FE4F` CJK Compatibility Forms
+  - [ ] `U+FE70..U+FEFF` Arabic Presentation Forms-B
+  - [ ] `U+FF00..U+FFEF` Halfwidth and Fullwidth Forms
+  - [ ] `U+FFF0..U+FFFF` Specials
+- [ ] Unicode Supplementary Multilingual Plane
+  - [ ] `U+010000..U+01007F` Linear B Syllabary
+  - [ ] `U+010080..U+0100FF` Linear B Ideograms
+  - [ ] `U+010100..U+01013F` Aegean Numbers
+  - [x] `U+010140..U+01018F` Ancient Greek Numbers
+  - [ ] `U+010190..U+0101CF` Ancient Symbols
+  - [ ] `U+0101D0..U+0101FF` Phaistos Disc
+  - [x] `U+010280..U+01029F` Lycian
+  - [x] `U+0102A0..U+0102DF` Carian
+  - [ ] `U+0102E0..U+0102FF` Coptic Epact Numbers
+  - [x] `U+010300..U+01032F` Old Italic
+  - [x] `U+010330..U+01034F` Gothic
+  - [ ] `U+010350..U+01037F` Old Permic
+  - [ ] `U+010380..U+01039F` Ugaritic
+  - [ ] `U+0103A0..U+0103DF` Old Persian
+  - [ ] `U+010400..U+01044F` Deseret
+  - [ ] `U+010450..U+01047F` Shavian
+  - [ ] `U+010480..U+0104AF` Osmanya
+  - [ ] `U+0104B0..U+0104FF` Osage
+  - [ ] `U+010500..U+01052F` Elbasan
+  - [ ] `U+010530..U+01056F` Caucasian Albanian
+  - [ ] `U+010570..U+0105BF` Vithkuqi
+  - [ ] `U+0105C0..U+0105FF` Todhri
+  - [ ] `U+010600..U+01077F` Linear A
+  - [ ] `U+010780..U+0107BF` Latin Extended-F
+  - [ ] `U+010800..U+01083F` Cypriot Syllabary
+  - [ ] `U+010840..U+01085F` Imperial Aramaic
+  - [ ] `U+010860..U+01087F` Palmyrene
+  - [ ] `U+010880..U+0108AF` Nabataean
+  - [ ] `U+0108E0..U+0108FF` Hatran
+  - [x] `U+010900..U+01091F` Phoenecian
+  - [x] `U+010920..U+01093F` Lydian
+  - [x] `U+010940..U+01095F` Sidetic
+  - [x] `U+010980..U+01099F` Meroitic Hieroglyphs
+  - [x] `U+0109A0..U+0109FF` Meroitic Cursive
+  - [ ] `U+010A00..U+010A5F` Kharoshthi
+  - [ ] `U+010A60..U+010A7F` Old South Arabian
+  - [ ] `U+010A80..U+010A9F` Old North Arabian
+  - [ ] `U+010AC0..U+010AFF` Manichaean
+  - [ ] `U+010B00..U+010B3F` Avestan
+  - [ ] `U+010B40..U+010B5F` Inscriptional Parthian
+  - [ ] `U+010B60..U+010B7F` Inscriptional Pahlavi
+  - [ ] `U+010B80..U+010BAF` Psalter Pahlavi
+  - [ ] `U+010C00..U+010C4F` Old Turkic
+  - [ ] `U+010C80..U+010CFF` Old Hungarian
+  - [ ] `U+010D00..U+010D3F` Hanifi Rohingya
+  - [ ] `U+010D40..U+010D8F` Garay
+  - [ ] `U+010E60..U+010E7F` Rumi Numeral Symbols
+  - [ ] `U+010E80..U+010EBF` Yezidi
+  - [ ] `U+010EC0..U+010EFF` Arabic Extended-C
+  - [ ] `U+010F00..U+010F2F` Old Sogdian
+  - [ ] `U+010F30..U+010F6F` Sogdian
+  - [ ] `U+010F70..U+010FAF` Old Uyghur
+  - [ ] `U+010FB0..U+010FDF` Chorasmian
+  - [ ] `U+010FE0..U+010FFF` Elymaic
+  - [ ] `U+011000..U+01107F` Brahmi
+  - [ ] `U+011080..U+0110CF` Kaithi
+  - [ ] `U+0110D0..U+0110FF` Sora Sompeng
+  - [ ] `U+011100..U+01114F` Chakma
+  - [ ] `U+011150..U+01117F` Mahajani
+  - [ ] `U+011180..U+0111DF` Sharada
+  - [ ] `U+0111E0..U+0111FF` Sinhala Archaic Numbers
+  - [ ] `U+011200..U+01124F` Khojki
+  - [ ] `U+011280..U+0112AF` Multani
+  - [ ] `U+0112B0..U+0112FF` Khudawadi
+  - [ ] `U+011300..U+01137F` Grantha
+  - [ ] `U+011380..U+0113FF` Tulu-Tigalari
+  - [ ] `U+011400..U+01147F` Newa
+  - [ ] `U+011480..U+0114DF` Tirhuta
+  - [ ] `U+011580..U+0115FF` Siddham
+  - [ ] `U+011600..U+01165F` Modi
+  - [ ] `U+011660..U+01167F` Mongolian Supplement
+  - [ ] `U+011680..U+0116CF` Takri
+  - [ ] `U+0116D0..U+0116FF` Myanmar Extended-C
+  - [ ] `U+011700..U+01174F` Ahom
+  - [ ] `U+011800..U+01184F` Dogra
+  - [ ] `U+0118A0..U+0118FF` Warang Citi
+  - [ ] `U+011900..U+01195F` Dives Akuru
+  - [ ] `U+0119A0..U+0119FF` Nandinagari
+  - [ ] `U+011A00..U+011A4F` Zanabazar Square
+  - [ ] `U+011A50..U+011AAF` Soyombo
+  - [ ] `U+011AB0..U+011ABF` Unified Canadian Aboriginal Syllabics Extended-A
+  - [ ] `U+011AC0..U+011AFF` Pau Cin Hau
+  - [ ] `U+011B60..U+011B7F` Sharada Supplement
+  - [ ] `U+011BC0..U+011BFF` Sunuwar
+  - [ ] `U+011C00..U+011C6F` Bhaiksuki
+  - [ ] `U+011C70..U+011CBF` Marchen
+  - [ ] `U+011D00..U+011D5F` Masaram Gondi
+  - [ ] `U+011D60..U+011DAF` Gunjala Gondi
+  - [ ] `U+011DB0..U+011DEF` Tolong Siki
+  - [ ] `U+011EE0..U+011EFF` Makasar
+  - [ ] `U+011F00..U+011F5F` Kawi
+  - [ ] `U+011FC0..U+011FFF` Tamil Supplement
+  - [ ] `U+012000..U+0123FF` Cuneiform*
+  - [ ] `U+012400..U+01247F` Cuneiform Numbers and Punctuation
+  - [ ] `U+012480..U+01254F` Early Dynastic Cuneiform
+  - [ ] `U+012F90..U+012FFF` Cypro-Minoan
+  - [ ] `U+013000..U+01342F` Egyptian Hieroglyphs
+  - [ ] `U+013430..U+01345F` Egyptian Hieroglyph Format Controls
+  - [ ] `U+013460..U+0143FF` Egyptian Hieroglyphics Extended-A
+  - [ ] `U+014400..U+01467F` Anatolian Hieroglyphs
+  - [ ] `U+016100..U+01613F` Gurung Khema
+  - [ ] `U+016800..U+016A3F` Bamum Supplement (In Progress)
+  - [ ] `U+016A40..U+016A6F` Mro
+  - [ ] `U+016A70..U+016ACF` Tangsa
+  - [ ] `U+016AD0..U+016AFF` Bassa Vah
+  - [ ] `U+016D40..U+016D7F` Kirat Rai
+  - [ ] `U+016B00..U+016B8F` Pahawh Hmong
+  - [ ] `U+016E40..U+016E9F` Medefaidrin
+  - [ ] `U+016EA0..U+016EDF` Beria Erfe
+  - [ ] `U+016F00..U+016F9F` Miao
+  - [ ] `U+016FE0..U+016FFF` Ideographic Symbols and Punctuation
+  - [ ] `U+017000..U+0187FF` Tangut
+  - [ ] `U+018800..U+018AFF` Tangut Components
+  - [ ] `U+018B00..U+018CFF` Khitan Small Script
+  - [ ] `U+018D00..U+018D7F` Tangut Supplement
+  - [ ] `U+018D80..U+018DFF` Tangut Components Supplement
+  - [ ] `U+01AFF0..U+01AFFF` Kana Extended-B
+  - [ ] `U+01B000..U+01B0FF` Kana Supplement
+  - [ ] `U+01B100..U+01B12F` Kana Extended-A
+  - [ ] `U+01B130..U+01B16F` Small Kana Extension
+  - [ ] `U+01B170..U+01B2FF` Nushu
+  - [ ] `U+01BC00..U+01BC9F` Duployan
+  - [ ] `U+01BCA0..U+01BCAF` Shorthand Format Controls
+  - [ ] `U+01CEC0..U+01CEFF` Miscellaneous Symbols Supplement
+  - [ ] `U+01CF00..U+01CFCF` Znamenny Musical Notation
+  - [ ] `U+01D000..U+01D0FF` Byzantine Musical Symbols
+  - [ ] `U+01D100..U+01D1FF` Musical Symbols
+  - [ ] `U+01D200..U+01D24F` Ancient Greek Musical Notation
+  - [ ] `U+01D2E0..U+01D2FF` Mayan Numerals
+  - [ ] `U+01D360..U+01D37F` Counting Rod Numerals
+  - [ ] `U+01D400..U+01D7FF` Mathematical Alphanumeric Symbols
+  - [ ] `U+01D800..U+01DAAF` Sutton SignWriting
+  - [ ] `U+01DF00..U+01DFFF` Latin Extended-G
+  - [ ] `U+01E000..U+01E02F` Glagolitic Supplement
+  - [ ] `U+01E100..U+01E14F` Nyiakeng Puachue Hmong
+  - [ ] `U+01E290..U+01E2BF` Toto
+  - [ ] `U+01E2C0..U+01E2FF` Wancho
+  - [ ] `U+01E5D0..U+01E5FF` Ol Onal
+  - [ ] `U+01E6C0..U+01E6FF` Tai Yo
+  - [ ] `U+01E7E0..U+01E7FF` Ethiopic Extended-B
+  - [ ] `U+01E800..U+01E8DF` Mende Kikakui
+  - [ ] `U+01E900..U+01E95F` Adlam
+  - [ ] `U+01EC70..U+01ECBF` Indic Siyaq Numbers
+  - [ ] `U+01ED00..U+01ED4F` Ottoman Siyaq Numbers
+  - [ ] `U+01EE00..U+01EEFF` Arabic Mathematical Alphabetic Symbols
+  - [ ] `U+01F000..U+01F02F` Mahjong Tiles
+  - [ ] `U+01F030..U+01F09F` Domino Tiles
+  - [ ] `U+01F0A0..U+01F0FF` Playing Cards
+  - [ ] `U+01F100..U+01F1FF` Enclosed Alphanumeric Supplement
+  - [ ] `U+01F200..U+01F2FF` Enclosed Ideographic Supplement
+  - [ ] `U+01F300..U+01F5FF` Miscellaneous Symbols and Pictographs
+  - [ ] `U+01F600..U+01F64F` Emoticons
+  - [ ] `U+01F650..U+01F67F` Ornamental Dingbats
+  - [ ] `U+01F680..U+01F6FF` Transport and Map Symbols
+  - [ ] `U+01F700..U+01F77F` Alchemical Symbols
+  - [ ] `U+01F780..U+01F7FF` Geometric Shapes Extended
+  - [ ] `U+01F800..U+01F8FF` Supplemental Arrows-C
+  - [ ] `U+01F900..U+01F9FF` Supplemental Symbols and Pictographs
+  - [ ] `U+01FA00..U+01FA6F` Chess Symbols
+  - [ ] `U+01FA70..U+01FAFF` Symbols and Pictographs Extended-A
+- [ ] Under-ConScript Unicode Registry
+  - [ ] `U+E000..U+E07F` Tengwar
+  - [ ] `U+E080..U+E0FF` Cirth
+  - [ ] `U+E100..U+E14F` Engsvanyáli
+  - [ ] `U+E150..U+E1AF` Kinya
+  - [ ] `U+E1B0..U+E1CF` Ilianóre
+  - [ ] `U+E1D0..U+E1FF` Syai
+  - [ ] `U+E200..U+E26F` Verdurian
+  - [ ] `U+E280...U+E29F` aUI
+  - [ ] `U+E2A0...U+E2CF` Amman-iar
+  - [ ] `U+E2D0...U+E2FF` Xaîni
+  - [ ] `U+E300...U+E33F` Mizarian
+  - [ ] `U+E340...U+E35F` Zíirí:nka
+  - [ ] `U+E3B0...U+E3FF` Olaetyan
+  - [ ] `U+E400...U+E42F` Nísklôz
+  - [ ] `U+E430...U+E44F` Kazat ?Akkorou
+  - [ ] `U+E450...U+E46F` Kazvarad
+  - [ ] `U+E470...U+E48F` Zarkhánd
+  - [ ] `U+E490...U+E4BF` Røzhxh
+  - [ ] `U+E4C0...U+E4EF` Serivelna
+  - [ ] `U+E4F0...U+E4FF` Kelwathi
+  - [ ] `U+E500..U+E51F` Saklor
+  - [ ] `U+E520..U+E54F` Rynnan
+  - [ ] `U+E550..U+E57F` Alzetjan
+  - [ ] `U+E580..U+E59F` Telarasso
+  - [ ] `U+E5A0..U+E5BF` Ssûraki
+  - [ ] `U+E5C0..U+E5DF` Gargoyle
+  - [ ] `U+E5E0..U+E5FF` Ophidian
+  - [ ] `U+E630..U+E64F` Seussian Latin Extensions
+  - [ ] `U+E650..U+E67F` Sylabica
+  - [ ] `U+E680..U+E6CF` Ewellic
+  - [ ] `U+E6D0..U+E6EF` Amlin
+  - [ ] `U+E6F0..U+E6FF` Unifon Extended
+  - [ ] `U+E740..U+E76F` Unifon
+  - [ ] `U+E770..U+E77F` Solresol
+  - [ ] ~~`U+E780..U+E7FF` Visible Speech~~
+  - [ ] `U+E800..U+E82F` Monofon
+  - [ ] `U+E830..U+E88F` D'ni
+  - [ ] `U+E890..U+E8DF` Aurebesh
+  - [ ] `U+E8E0..U+E8FF` Tonal
+  - [ ] `U+E900..U+E97F` Glaitha-A
+  - [ ] `U+E980..U+E9FF` Glaitha-B
+  - [ ] `U+EAA0..U+EAFF` Wanya
+  - [ ] `U+EB00..U+EB3F` Orokin
+  - [ ] `U+EB40..U+EB5F` Standard Galactic
+  - [ ] `U+EB60..U+EB9F` Braille Extended
+  - [ ] `U+EBA0..U+EBDF` Cistercian Numerals
+  - [ ] `U+EBE0..U+EBEF` Boby Lapointe's "bibi-binary" hexadecimal notation
+  - [ ] `U+EBF0..U+EBFF` Bruce Alan Martin's hexadecimal bit location notation
+  - [ ] `U+EC00..U+EC2F` Cylenian
+  - [ ] `U+EC30..U+EC6F` Syrrin
+  - [ ] `U+EC70..U+ECEF` Graflect
+  - [ ] `U+ECF0..U+ECFF` Ronald O. Whitaker's triangular hexadecimal notation
+  - [ ] `U+ED00..U+ED3F` Deini
+  - [ ] `U+ED40..U+ED5F` Niji
+  - [ ] `U+F4C0..U+F4EF` Ath
+  - [ ] `U+F8A0..U+F8CF` Aiha
+  - [ ] `U+F8D0..U+F8FF` Klingon
+  - [ ] `U+F0000..U+F0E6F` Kinya Syllables
+  - [ ] `U+F0E70..U+F11E7` Pikto
+  - [ ] `U+F16B0..U+F16DF` Derani
+  - [ ] `U+F1900..U+F19FF` Sitelen Pona
+  - [ ] `U+F1B00..U+F1C3F` Shidinn
+  - [ ] `U+F1C40..U+F1C7F` Titi Pula
+  - [ ] `U+F1C80..U+F1C9F` Sitelen Pona Radicals
+  - [ ] `U+F2000..U+F267F` Sadalian
+  - [ ] `U+F28A0..U+F28DF` Zbalermorna
 
 # Building
 
@@ -280,10 +427,7 @@ will output the changelog between your local version and the last tag.
 
 # Contributors
 
-Massive thanks to [ym1234] for helping me figure out how to make the font tables behave nicely.
-
-Cozette includes contributions from:
-
+- [ym1234]
 - [autumn]
 - [cpkio]
 - [dariof4]
@@ -306,21 +450,8 @@ Cozette's builds use [bdfscale](https://github.com/philj56/bdfscale) by [philj56
 [dina]: https://www.dcmembers.com/jibsen/download/61/
 [proggy]: https://github.com/bluescan/proggyfonts
 [creep]: https://github.com/romeovs/creep
-[great coverage of all the glyphs i might encounter in the terminal]: #character-map
-[file an issue]: https://github.com/the-moonwitch/Cozette/issues/new
 [nerd fonts]: https://www.nerdfonts.com/
-[the bottom of this readme]: #character-map
-[you can get cozette over at the releases tab]: https://github.com/the-moonwitch/Cozette/releases
-[ifreund]: https://github.com/ifreund
-[an aur package]: https://aur.archlinux.org/packages/cozette-otb/
-[specifically enable bitmap fonts]: https://bugs.launchpad.net/ubuntu/+source/fontconfig/+bug/1560114
-[follow the instructions from here]: https://wiki.archlinux.org/index.php/installation_guide
-[changelog]: ./CHANGELOG.md
-[vim-airline]: https://github.com/vim-airline/vim-airline/
-[ranger_devicons]: https://github.com/alexanderjeurissen/ranger_devicons
-[starship]: https://starship.rs/
 [fontforge]: https://fontforge.org/en-US/
-[powerlevel10k]: https://github.com/romkatv/powerlevel10k/
 [pipenv]: https://github.com/pypa/pipenv
 [mit]: ./LICENSE
 [ym1234]: https://github.com/ym1234
@@ -339,4 +470,3 @@ Cozette's builds use [bdfscale](https://github.com/philj56/bdfscale) by [philj56
 [estradiol enantate]: https://en.wikipedia.org/wiki/Estradiol_enantate
 [port]: https://cgit.freebsd.org/ports/tree/x11-fonts/cozette
 [bufferline.nvim]: https://github.com/akinsho/bufferline.nvim
-[tmux]: 
