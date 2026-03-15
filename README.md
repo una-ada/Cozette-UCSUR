@@ -108,7 +108,7 @@ totally just leeching off the build scripts).
   - [ ] `U+2C60..U+2C7F` Latin Extended-C
   - [ ] `U+2C80..U+2CFF` Coptic
   - [ ] `U+2D00..U+2D2F` Georgian Supplement
-  - [ ] `U+2D30..U+2D7F` Tifinagh
+  - [x] `U+2D30..U+2D7F` Tifinagh
   - [ ] `U+2D80..U+2DDF` Ethiopic Extended
   - [ ] `U+2DE0..U+2DFF` Cyrillic Extended-A
   - [ ] `U+2E00..U+2E7F` Supplemental Punctuation
