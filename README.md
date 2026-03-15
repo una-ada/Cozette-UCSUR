@@ -174,7 +174,7 @@ totally just leeching off the build scripts).
   - [ ] `U+010190..U+0101CF` Ancient Symbols
   - [ ] `U+0101D0..U+0101FF` Phaistos Disc
   - [ ] `U+010280..U+01029F` Lycian
-  - [ ] `U+0102A0..U+0102DF` Carian
+  - [x] `U+0102A0..U+0102DF` Carian
   - [ ] `U+0102E0..U+0102FF` Coptic Epact Numbers
   - [ ] `U+010300..U+01032F` Old Italic
   - [ ] `U+010330..U+01034F` Gothic
