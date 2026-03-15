@@ -173,7 +173,7 @@ totally just leeching off the build scripts).
   - [ ] `U+010140..U+01018F` Ancient Greek Numbers
   - [ ] `U+010190..U+0101CF` Ancient Symbols
   - [ ] `U+0101D0..U+0101FF` Phaistos Disc
-  - [ ] `U+010280..U+01029F` Lycian
+  - [x] `U+010280..U+01029F` Lycian
   - [x] `U+0102A0..U+0102DF` Carian
   - [ ] `U+0102E0..U+0102FF` Coptic Epact Numbers
   - [ ] `U+010300..U+01032F` Old Italic
@@ -198,7 +198,7 @@ totally just leeching off the build scripts).
   - [ ] `U+0108E0..U+0108FF` Hatran
   - [x] `U+010900..U+01091F` Phoenecian
   - [x] `U+010920..U+01093F` Lydian
-  - [ ] `U+010940..U+01095F` Sidetic
+  - [x] `U+010940..U+01095F` Sidetic
   - [x] `U+010980..U+01099F` Meroitic Hieroglyphs
   - [x] `U+0109A0..U+0109FF` Meroitic Cursive
   - [ ] `U+010A00..U+010A5F` Kharoshthi
