@@ -364,7 +364,6 @@ A full character map is available at [猫.dev].
   - [ ] `U+E6F0..U+E6FF` Unifon Extended
   - [ ] `U+E740..U+E76F` Unifon
   - [ ] `U+E770..U+E77F` Solresol
-  - [ ] ~~`U+E780..U+E7FF` Visible Speech~~
   - [ ] `U+E800..U+E82F` Monofon
   - [ ] `U+E830..U+E88F` D'ni
   - [ ] `U+E890..U+E8DF` Aurebesh
@@ -376,12 +375,12 @@ A full character map is available at [猫.dev].
   - [ ] `U+EB40..U+EB5F` Standard Galactic
   - [ ] `U+EB60..U+EB9F` Braille Extended
   - [ ] `U+EBA0..U+EBDF` Cistercian Numerals
-  - [ ] `U+EBE0..U+EBEF` Boby Lapointe's "bibi-binary" hexadecimal notation
-  - [ ] `U+EBF0..U+EBFF` Bruce Alan Martin's hexadecimal bit location notation
+  - [ ] `U+EBE0..U+EBEF` Lapointe Hexadecimal Numbers
+  - [ ] `U+EBF0..U+EBFF` Martin Hexadecimal Numbers
   - [ ] `U+EC00..U+EC2F` Cylenian
   - [ ] `U+EC30..U+EC6F` Syrrin
   - [ ] `U+EC70..U+ECEF` Graflect
-  - [ ] `U+ECF0..U+ECFF` Ronald O. Whitaker's triangular hexadecimal notation
+  - [ ] `U+ECF0..U+ECFF` Whitaker Hexadecimal Numbers
   - [ ] `U+ED00..U+ED3F` Deini
   - [ ] `U+ED40..U+ED5F` Niji
   - [ ] `U+F4C0..U+F4EF` Ath

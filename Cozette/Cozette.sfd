@@ -57118,10 +57118,10 @@ EndChar
 EndChars
 BitmapFont: 13 7257 10 3 1
 BDFStartProperties: 42
-FONT 1 "-inesw-Cozette-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
-COMMENT 0 "(c) 2020-2025 Ines @ the.moonwit.ch"
-FOUNDRY 16 "inesw"
-FAMILY_NAME 16 "Cozette"
+FONT 1 "-una-CozetteUCSUR-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
+COMMENT 0 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
+FOUNDRY 16 "una"
+FAMILY_NAME 16 "CozetteUCSUR"
 WEIGHT_NAME 16 "Medium"
 SLANT 16 "R"
 SETWIDTH_NAME 16 "Normal"
@@ -57137,8 +57137,8 @@ CHARSET_ENCODING 16 "1"
 FONTNAME_REGISTRY 16 ""
 FONT_NAME 16 "Cozette"
 FACE_NAME 16 "Cozette"
-COPYRIGHT 16 "(c) 2020-2025 Ines <ines@moonwit.ch>"
-FONT_VERSION 16 "1.300"
+COPYRIGHT 16 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
+FONT_VERSION 16 "1.0"
 FONT_ASCENT 18 10
 FONT_DESCENT 18 3
 UNDERLINE_POSITION 18 -19
