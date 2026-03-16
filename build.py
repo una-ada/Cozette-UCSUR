@@ -12,13 +12,6 @@ from tempfile import NamedTemporaryFile
 import crayons  # type: ignore
 
 from cozette_builder.changeloggen import get_changelog, get_last_ver
-from cozette_builder.hidpi import double_size
-from cozette_builder.imagegen import (
-    add_margins,
-    read_sample,
-    save_charlist,
-    save_sample,
-)
 from cozette_builder.scanner import (
     find_missing_codepoints,
     print_codepoints_for_changelog,
@@ -27,7 +20,7 @@ from cozette_builder.scanner import (
 
 REPO_ROOT = Path(__file__).resolve().parent
 BUILD_DIR = REPO_ROOT / "build"
-FONTNAME = "Cozette"
+FONTNAME = "CozetteUCSUR"
 SFDPATH = REPO_ROOT / "Cozette" / "Cozette.sfd"
 
 
@@ -42,20 +35,6 @@ class Generate:
             if self.bitmap_fmt
             else f'Generate("{self.filename}")'
         )
-
-
-def save_images():
-    print(crayons.yellow("Saving character map"))
-    save_charlist(FONTNAME, SFDPATH, REPO_ROOT / "img")
-
-    print(crayons.yellow("Saving sample image"))
-    save_sample(
-        FONTNAME,
-        read_sample(REPO_ROOT / "img" / "sample.txt"),
-        REPO_ROOT / "img" / "sample.png",
-    )
-    add_margins(REPO_ROOT / "img" / "sample.png")
-
 
 def fontforge(open: Path, generate: Sequence[Generate]):
     BUILD_DIR.mkdir(exist_ok=True)
@@ -106,6 +85,14 @@ def fix_ttf(ttfpath: Path, name: str):
             if line.startswith("Version "):
                 version = line.split()[1]
                 break
+    if name.endswith("Bold"):
+        family_name = name.removesuffix("Bold")
+        style_name = "Bold"
+        weight = 700
+    else:
+        family_name = name
+        style_name = "Regular"
+        weight = 400
     with NamedTemporaryFile() as sfd:
         subprocess.run(
             [
@@ -128,13 +115,18 @@ def fix_ttf(ttfpath: Path, name: str):
                 "ScaleToEm(2048)",
                 'RenameGlyphs("AGL with PUA")',
                 'Reencode("unicode")',
-                f'SetTTFName(0x409, 3, "{name}")',
+                f'SetTTFName(0x409, 1, "{family_name}")',
+                f'SetTTFName(0x409, 2, "{style_name}")',
+                f'SetTTFName(0x409, 3, "{family_name} {style_name}")',
+                f'SetTTFName(0x409, 4, "{family_name} {style_name}")',
                 f'SetTTFName(0x409, 5, "{version}")',
-                f'SetTTFName(0x409, 8, "Ines <ines@moonwit.ch>")',
-                f'SetTTFName(0x409, 9, "Ines <ines@moonwit.ch>")',
-                f'SetTTFName(0x409, 11, "https://github.com/the-moonwitch/Cozette")',
+                f'SetTTFName(0x409, 6, "{family_name}-{style_name}")',
+                f'SetTTFName(0x409, 8, "Ines <ines@moonwit.ch>, Una Ada <una@xn--z7x.dev>")',
+                f'SetTTFName(0x409, 9, "Ines <ines@moonwit.ch>, Una Ada <una@xn--z7x.dev>")',
+                f'SetTTFName(0x409, 11, "https://github.com/una-ada/Cozette-UCSUR")',
                 f'SetTTFName(0x409, 13, LoadStringFromFile({repr(str((REPO_ROOT / "LICENSE").resolve()))}))',
-                'SetTTFName(0x409, 14, "https://github.com/the-moonwitch/Cozette/blob/master/LICENSE")',
+                'SetTTFName(0x409, 14, "https://github.com/una-ada/Cozette-UCSUR/blob/master/LICENSE")',
+                f'SetOS2Value("Weight", {weight})',
                 f'Generate("{name}.dfont")',
                 f'Generate("{name}.otf")',
                 f'Generate("{name}.ttf")',
@@ -157,7 +149,6 @@ def fix_ttf(ttfpath: Path, name: str):
     ttfpath.unlink()
 
 def gen_versions(bdf_path: Path, font_name: str, filename_prefix: str):
-    hidpi_path = BUILD_DIR / f"{filename_prefix}_hidpi.bdf"
 
     def bnp_invoc_ttf(name: str, format: str):
         return [
@@ -204,7 +195,6 @@ def gen_versions(bdf_path: Path, font_name: str, filename_prefix: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="action")
-    images = subparsers.add_parser("images")
     changelog = subparsers.add_parser("changelog")
     fonts = subparsers.add_parser("fonts")
     scan = subparsers.add_parser("scan")
@@ -231,10 +221,6 @@ if __name__ == "__main__":
                     f"supported by Cozette."
                 )
             )
-    if args.action == "images":
-        print(crayons.blue("Saving sample images..."))
-        save_images()
-        print(crayons.green("Done!", bold=True))
     elif args.action == "fonts":
         rmtree(BUILD_DIR, ignore_errors=True)
         BUILD_DIR.mkdir(exist_ok=True)

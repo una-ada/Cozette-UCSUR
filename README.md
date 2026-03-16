@@ -22,6 +22,8 @@ whereas Cozette-(U)CSUR is the result of my personal appreciation for the style
 of Cozette and desire to see it extended to more of Unicode and (U)CSUR (also
 totally just leeching off the build scripts).
 
+A full character map is available at [猫.dev].
+
 # Roadmap 
 
 - [ ] Unicode Basic Multilingual Plane
@@ -439,6 +441,7 @@ will output the changelog between your local version and the last tag.
 - [theridane]
 - [supersurviveur]
 - [breitnw]
+- [WhyNotHugo]
 - [estradiol enantate]
 
 # License & Acknowledgements
@@ -467,6 +470,8 @@ Cozette's builds use [bdfscale](https://github.com/philj56/bdfscale) by [philj56
 [theridane]: https://github.com/theridane
 [supersurviveur]: https://github.com/supersurviveur
 [breitnw]: https://github.com/breitnw
+[WhyNotHugo]: https://github.com/WhyNotHugo
 [estradiol enantate]: https://en.wikipedia.org/wiki/Estradiol_enantate
 [port]: https://cgit.freebsd.org/ports/tree/x11-fonts/cozette
 [bufferline.nvim]: https://github.com/akinsho/bufferline.nvim
+[猫.dev]: https://xn--z7x.dev/js/2/glyphs
