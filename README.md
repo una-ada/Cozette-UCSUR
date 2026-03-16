@@ -106,7 +106,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+2980..U+29FF` Miscellaneous Mathematical Symbols-B
   - [ ] `U+2A00..U+2AFF` Supplemental Mathematical Operators
   - [ ] `U+2B00..U+2BFF` Miscellaneous Symbols and Arrows
-  - [ ] `U+2C00..U+2C5F` Glagolithic
+  - [x] `U+2C00..U+2C5F` Glagolitic
   - [ ] `U+2C60..U+2C7F` Latin Extended-C
   - [x] `U+2C80..U+2CFF` Coptic
   - [ ] `U+2D00..U+2D2F` Georgian Supplement
