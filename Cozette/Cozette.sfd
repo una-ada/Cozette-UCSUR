@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1773976618
+ModificationTime: 1773983482
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -122,11 +122,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 5648 16 13
+WinInfo: 5232 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 6809
+BeginChars: 1114112 7081
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -58725,8 +58725,1912 @@ Width: 1024
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: uni1400
+Encoding: 5120 5120 6809
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1401
+Encoding: 5121 5121 6810
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1402
+Encoding: 5122 5122 6811
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1403
+Encoding: 5123 5123 6812
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1404
+Encoding: 5124 5124 6813
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1405
+Encoding: 5125 5125 6814
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1406
+Encoding: 5126 5126 6815
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1407
+Encoding: 5127 5127 6816
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1408
+Encoding: 5128 5128 6817
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1409
+Encoding: 5129 5129 6818
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni140A
+Encoding: 5130 5130 6819
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni140B
+Encoding: 5131 5131 6820
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni140C
+Encoding: 5132 5132 6821
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni140D
+Encoding: 5133 5133 6822
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni140E
+Encoding: 5134 5134 6823
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni140F
+Encoding: 5135 5135 6824
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1410
+Encoding: 5136 5136 6825
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1411
+Encoding: 5137 5137 6826
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1412
+Encoding: 5138 5138 6827
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1413
+Encoding: 5139 5139 6828
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1414
+Encoding: 5140 5140 6829
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1415
+Encoding: 5141 5141 6830
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1416
+Encoding: 5142 5142 6831
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1417
+Encoding: 5143 5143 6832
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1418
+Encoding: 5144 5144 6833
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1419
+Encoding: 5145 5145 6834
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni141A
+Encoding: 5146 5146 6835
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni141B
+Encoding: 5147 5147 6836
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni141C
+Encoding: 5148 5148 6837
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni141D
+Encoding: 5149 5149 6838
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni141E
+Encoding: 5150 5150 6839
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni141F
+Encoding: 5151 5151 6840
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1420
+Encoding: 5152 5152 6841
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1421
+Encoding: 5153 5153 6842
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1422
+Encoding: 5154 5154 6843
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1423
+Encoding: 5155 5155 6844
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1424
+Encoding: 5156 5156 6845
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1425
+Encoding: 5157 5157 6846
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1426
+Encoding: 5158 5158 6847
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1427
+Encoding: 5159 5159 6848
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1428
+Encoding: 5160 5160 6849
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1429
+Encoding: 5161 5161 6850
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni142A
+Encoding: 5162 5162 6851
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni142B
+Encoding: 5163 5163 6852
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni142C
+Encoding: 5164 5164 6853
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni142D
+Encoding: 5165 5165 6854
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni142E
+Encoding: 5166 5166 6855
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni142F
+Encoding: 5167 5167 6856
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1430
+Encoding: 5168 5168 6857
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1431
+Encoding: 5169 5169 6858
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1432
+Encoding: 5170 5170 6859
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1433
+Encoding: 5171 5171 6860
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1434
+Encoding: 5172 5172 6861
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1435
+Encoding: 5173 5173 6862
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1436
+Encoding: 5174 5174 6863
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1437
+Encoding: 5175 5175 6864
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1438
+Encoding: 5176 5176 6865
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1439
+Encoding: 5177 5177 6866
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni143A
+Encoding: 5178 5178 6867
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni143B
+Encoding: 5179 5179 6868
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni143C
+Encoding: 5180 5180 6869
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni143D
+Encoding: 5181 5181 6870
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni143E
+Encoding: 5182 5182 6871
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni143F
+Encoding: 5183 5183 6872
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1440
+Encoding: 5184 5184 6873
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1441
+Encoding: 5185 5185 6874
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1442
+Encoding: 5186 5186 6875
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1443
+Encoding: 5187 5187 6876
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1444
+Encoding: 5188 5188 6877
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1445
+Encoding: 5189 5189 6878
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1446
+Encoding: 5190 5190 6879
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1447
+Encoding: 5191 5191 6880
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1448
+Encoding: 5192 5192 6881
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1449
+Encoding: 5193 5193 6882
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni144A
+Encoding: 5194 5194 6883
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni144B
+Encoding: 5195 5195 6884
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni144C
+Encoding: 5196 5196 6885
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni144D
+Encoding: 5197 5197 6886
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni144E
+Encoding: 5198 5198 6887
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni144F
+Encoding: 5199 5199 6888
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1450
+Encoding: 5200 5200 6889
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1451
+Encoding: 5201 5201 6890
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1452
+Encoding: 5202 5202 6891
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1453
+Encoding: 5203 5203 6892
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1454
+Encoding: 5204 5204 6893
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1455
+Encoding: 5205 5205 6894
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1456
+Encoding: 5206 5206 6895
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1457
+Encoding: 5207 5207 6896
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1458
+Encoding: 5208 5208 6897
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1459
+Encoding: 5209 5209 6898
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni145A
+Encoding: 5210 5210 6899
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni145B
+Encoding: 5211 5211 6900
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni145C
+Encoding: 5212 5212 6901
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni145D
+Encoding: 5213 5213 6902
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni145E
+Encoding: 5214 5214 6903
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni145F
+Encoding: 5215 5215 6904
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1460
+Encoding: 5216 5216 6905
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1461
+Encoding: 5217 5217 6906
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1462
+Encoding: 5218 5218 6907
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1463
+Encoding: 5219 5219 6908
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1464
+Encoding: 5220 5220 6909
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1465
+Encoding: 5221 5221 6910
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1466
+Encoding: 5222 5222 6911
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1467
+Encoding: 5223 5223 6912
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1468
+Encoding: 5224 5224 6913
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1469
+Encoding: 5225 5225 6914
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni146A
+Encoding: 5226 5226 6915
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni146B
+Encoding: 5227 5227 6916
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni146C
+Encoding: 5228 5228 6917
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni146D
+Encoding: 5229 5229 6918
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni146E
+Encoding: 5230 5230 6919
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni146F
+Encoding: 5231 5231 6920
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1470
+Encoding: 5232 5232 6921
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1471
+Encoding: 5233 5233 6922
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1472
+Encoding: 5234 5234 6923
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1473
+Encoding: 5235 5235 6924
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1474
+Encoding: 5236 5236 6925
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1475
+Encoding: 5237 5237 6926
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1476
+Encoding: 5238 5238 6927
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1477
+Encoding: 5239 5239 6928
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1478
+Encoding: 5240 5240 6929
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1479
+Encoding: 5241 5241 6930
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni147A
+Encoding: 5242 5242 6931
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni147B
+Encoding: 5243 5243 6932
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni147C
+Encoding: 5244 5244 6933
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni147D
+Encoding: 5245 5245 6934
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni147E
+Encoding: 5246 5246 6935
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni147F
+Encoding: 5247 5247 6936
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1480
+Encoding: 5248 5248 6937
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1481
+Encoding: 5249 5249 6938
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1482
+Encoding: 5250 5250 6939
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1483
+Encoding: 5251 5251 6940
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1484
+Encoding: 5252 5252 6941
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1485
+Encoding: 5253 5253 6942
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1486
+Encoding: 5254 5254 6943
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1487
+Encoding: 5255 5255 6944
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1488
+Encoding: 5256 5256 6945
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1489
+Encoding: 5257 5257 6946
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni148A
+Encoding: 5258 5258 6947
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni148B
+Encoding: 5259 5259 6948
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni148C
+Encoding: 5260 5260 6949
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni148D
+Encoding: 5261 5261 6950
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni148E
+Encoding: 5262 5262 6951
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni148F
+Encoding: 5263 5263 6952
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1490
+Encoding: 5264 5264 6953
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1491
+Encoding: 5265 5265 6954
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1492
+Encoding: 5266 5266 6955
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1493
+Encoding: 5267 5267 6956
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1494
+Encoding: 5268 5268 6957
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1495
+Encoding: 5269 5269 6958
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1496
+Encoding: 5270 5270 6959
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1497
+Encoding: 5271 5271 6960
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1498
+Encoding: 5272 5272 6961
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1499
+Encoding: 5273 5273 6962
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni149A
+Encoding: 5274 5274 6963
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni149B
+Encoding: 5275 5275 6964
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni149C
+Encoding: 5276 5276 6965
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni149D
+Encoding: 5277 5277 6966
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni149E
+Encoding: 5278 5278 6967
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni149F
+Encoding: 5279 5279 6968
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A0
+Encoding: 5280 5280 6969
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A1
+Encoding: 5281 5281 6970
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A2
+Encoding: 5282 5282 6971
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A3
+Encoding: 5283 5283 6972
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A4
+Encoding: 5284 5284 6973
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A5
+Encoding: 5285 5285 6974
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A6
+Encoding: 5286 5286 6975
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A7
+Encoding: 5287 5287 6976
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A8
+Encoding: 5288 5288 6977
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14A9
+Encoding: 5289 5289 6978
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14AA
+Encoding: 5290 5290 6979
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14AB
+Encoding: 5291 5291 6980
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14AC
+Encoding: 5292 5292 6981
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14AD
+Encoding: 5293 5293 6982
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14AE
+Encoding: 5294 5294 6983
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14AF
+Encoding: 5295 5295 6984
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B0
+Encoding: 5296 5296 6985
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B1
+Encoding: 5297 5297 6986
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B2
+Encoding: 5298 5298 6987
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B3
+Encoding: 5299 5299 6988
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B4
+Encoding: 5300 5300 6989
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B5
+Encoding: 5301 5301 6990
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B6
+Encoding: 5302 5302 6991
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B7
+Encoding: 5303 5303 6992
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B8
+Encoding: 5304 5304 6993
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14B9
+Encoding: 5305 5305 6994
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14BA
+Encoding: 5306 5306 6995
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14BB
+Encoding: 5307 5307 6996
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14BC
+Encoding: 5308 5308 6997
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14BD
+Encoding: 5309 5309 6998
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14BE
+Encoding: 5310 5310 6999
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14BF
+Encoding: 5311 5311 7000
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C0
+Encoding: 5312 5312 7001
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C1
+Encoding: 5313 5313 7002
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C2
+Encoding: 5314 5314 7003
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C3
+Encoding: 5315 5315 7004
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C4
+Encoding: 5316 5316 7005
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C5
+Encoding: 5317 5317 7006
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C6
+Encoding: 5318 5318 7007
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C7
+Encoding: 5319 5319 7008
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C8
+Encoding: 5320 5320 7009
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14C9
+Encoding: 5321 5321 7010
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14CA
+Encoding: 5322 5322 7011
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14CB
+Encoding: 5323 5323 7012
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14CC
+Encoding: 5324 5324 7013
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14CD
+Encoding: 5325 5325 7014
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14CE
+Encoding: 5326 5326 7015
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14CF
+Encoding: 5327 5327 7016
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D0
+Encoding: 5328 5328 7017
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D1
+Encoding: 5329 5329 7018
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D2
+Encoding: 5330 5330 7019
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D3
+Encoding: 5331 5331 7020
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D4
+Encoding: 5332 5332 7021
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D5
+Encoding: 5333 5333 7022
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D6
+Encoding: 5334 5334 7023
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D7
+Encoding: 5335 5335 7024
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D8
+Encoding: 5336 5336 7025
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14D9
+Encoding: 5337 5337 7026
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14DA
+Encoding: 5338 5338 7027
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14DB
+Encoding: 5339 5339 7028
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14DC
+Encoding: 5340 5340 7029
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14DD
+Encoding: 5341 5341 7030
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14DE
+Encoding: 5342 5342 7031
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14DF
+Encoding: 5343 5343 7032
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E0
+Encoding: 5344 5344 7033
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E1
+Encoding: 5345 5345 7034
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E2
+Encoding: 5346 5346 7035
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E3
+Encoding: 5347 5347 7036
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E4
+Encoding: 5348 5348 7037
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E5
+Encoding: 5349 5349 7038
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E6
+Encoding: 5350 5350 7039
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E7
+Encoding: 5351 5351 7040
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E8
+Encoding: 5352 5352 7041
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14E9
+Encoding: 5353 5353 7042
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14EA
+Encoding: 5354 5354 7043
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14EB
+Encoding: 5355 5355 7044
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14EC
+Encoding: 5356 5356 7045
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14ED
+Encoding: 5357 5357 7046
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14EE
+Encoding: 5358 5358 7047
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14EF
+Encoding: 5359 5359 7048
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F0
+Encoding: 5360 5360 7049
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F1
+Encoding: 5361 5361 7050
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F2
+Encoding: 5362 5362 7051
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F3
+Encoding: 5363 5363 7052
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F4
+Encoding: 5364 5364 7053
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F5
+Encoding: 5365 5365 7054
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F6
+Encoding: 5366 5366 7055
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F7
+Encoding: 5367 5367 7056
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F8
+Encoding: 5368 5368 7057
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14F9
+Encoding: 5369 5369 7058
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14FA
+Encoding: 5370 5370 7059
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14FB
+Encoding: 5371 5371 7060
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14FC
+Encoding: 5372 5372 7061
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14FD
+Encoding: 5373 5373 7062
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14FE
+Encoding: 5374 5374 7063
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni14FF
+Encoding: 5375 5375 7064
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1500
+Encoding: 5376 5376 7065
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1501
+Encoding: 5377 5377 7066
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1502
+Encoding: 5378 5378 7067
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1503
+Encoding: 5379 5379 7068
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1504
+Encoding: 5380 5380 7069
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1505
+Encoding: 5381 5381 7070
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1506
+Encoding: 5382 5382 7071
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1507
+Encoding: 5383 5383 7072
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1508
+Encoding: 5384 5384 7073
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1509
+Encoding: 5385 5385 7074
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni150A
+Encoding: 5386 5386 7075
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni150B
+Encoding: 5387 5387 7076
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni150C
+Encoding: 5388 5388 7077
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni150D
+Encoding: 5389 5389 7078
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni150E
+Encoding: 5390 5390 7079
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni150F
+Encoding: 5391 5391 7080
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 6809 10 3 1
+BitmapFont: 13 7449 10 3 1
 BDFStartProperties: 42
 FONT 1 "-una-CozetteUCSUR-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
@@ -72390,6 +74294,1286 @@ BDFChar: 6807 5787 6 0 5 0 8
 J3Y4g$kOOHJ,fQL
 BDFChar: 6808 5788 6 0 5 0 8
 ":,P]^`X0o"98E%
+BDFChar: 6809 5120 6 1 5 3 5
+p]1'h
+BDFChar: 6810 5121 12 3 9 -1 6
+rdmO+-n#W<
+BDFChar: 6811 5122 12 3 9 0 9
+&1A)$-n%JOK)P`M
+BDFChar: 6812 5123 12 3 9 0 7
+&.g6<6puY+
+BDFChar: 6813 5124 12 3 9 0 9
+(`35a-n%JOK)P`M
+BDFChar: 6814 5125 12 3 9 0 6
+^p&cLN3L(t
+BDFChar: 6815 5126 12 3 9 0 9
+^q]rcY`+0mYeU5=
+BDFChar: 6816 5127 12 3 9 0 9
+f[p2>Y`+0mYeU5=
+BDFChar: 6817 5128 12 3 10 0 6
+i0^C8VO69A
+BDFChar: 6818 5129 12 3 10 0 6
+i0]8([[>tQ
+BDFChar: 6819 5130 12 3 9 0 6
+"r^s&@N#FN
+BDFChar: 6820 5131 12 3 9 0 9
+"pP&3)Ie;-)?p0A
+BDFChar: 6821 5132 12 2 9 -1 6
+ImG8&'\(20
+BDFChar: 6822 5133 12 3 10 -1 6
+rdmO+-n>rB
+BDFChar: 6823 5134 12 2 9 0 7
+#ftL0+sK=&
+BDFChar: 6824 5135 12 3 10 0 7
+&/-QB6puY+
+BDFChar: 6825 5136 12 2 9 0 9
+$k*-We.a)N6%8k7
+BDFChar: 6826 5137 12 3 10 0 9
+(`35d.k!eRK)P`M
+BDFChar: 6827 5138 12 1 9 0 6
+(]Y<O&HL1.d/Xp^(]XO9
+BDFChar: 6828 5139 12 3 11 0 6
+^]:S=L]E-ZM1Df1^]4?7
+BDFChar: 6829 5140 12 1 9 0 9
+0E<d,!!!i9('"pHd"'LD('#0O
+BDFChar: 6830 5141 12 3 11 0 9
+^];.M!!'e7YQ0IZKn,#1YQ2H=
+BDFChar: 6831 5142 12 3 9 0 9
+^t9L>Y`+0mYeU5=
+BDFChar: 6832 5143 12 1 9 0 6
+!ItB)#_:9PaFFJF!It.M
+BDFChar: 6833 5144 12 3 11 0 6
+$ii*a6i_pk7=[2p$ig8-
+BDFChar: 6834 5145 12 1 9 0 9
+!It3$!!!%M#(Qu0d"'2f#(Q`)
+BDFChar: 6835 5146 12 3 11 0 9
+"oni-!!!E-1]ToDKn)UB1]Rpa
+BDFChar: 6836 5147 12 3 9 0 9
+"u\.>)Ie;-)?p0A
+BDFChar: 6837 5148 6 1 5 3 6
+W2QXk
+BDFChar: 6838 5149 6 1 5 3 7
+3%4QphuE`W
+BDFChar: 6839 5150 6 1 5 3 7
++Abmjp](9o
+BDFChar: 6840 5151 6 2 3 3 6
+5X9jM
+BDFChar: 6841 5152 6 2 3 3 6
+J:KmM
+BDFChar: 6842 5153 6 1 4 3 6
+OH>Q3
+BDFChar: 6843 5154 6 1 4 3 6
+@$$J3
+BDFChar: 6844 5155 6 1 4 3 6
+i"-IX
+BDFChar: 6845 5156 6 1 4 3 6
+@$$IX
+BDFChar: 6846 5157 6 1 4 3 6
+:f*gX
+BDFChar: 6847 5158 6 2 4 3 6
+TV.sN
+BDFChar: 6848 5159 6 2 3 3 4
+^q]pM
+BDFChar: 6849 5160 6 1 3 5 5
+huE`W
+BDFChar: 6850 5161 6 1 3 3 6
+5i=mm
+BDFChar: 6851 5162 6 1 3 3 6
+i'9Om
+BDFChar: 6852 5163 12 2 11 -1 6
+rd]TN6pO.*-ibXq&-*7A
+BDFChar: 6853 5164 12 3 10 0 7
+&/$HA77;b,
+BDFChar: 6854 5165 12 3 11 0 6
+_#U_?N.?M1Mu^'^^]4?7
+BDFChar: 6855 5166 12 2 11 0 6
+#(RVB@R,N1@K7;H"onW'
+BDFChar: 6856 5167 12 3 9 -1 6
+Jq?BY-n#W<
+BDFChar: 6857 5168 12 3 9 0 9
+&1A)$-n%JOJq<t&
+BDFChar: 6858 5169 12 3 9 0 7
+&.g6<6puWY
+BDFChar: 6859 5170 12 3 9 0 9
+(`35a-n%JOJq<t&
+BDFChar: 6860 5171 12 3 10 0 6
+^b?0!$o#Hs
+BDFChar: 6861 5172 12 3 10 0 9
+^q]rc0FS$l0YdYg
+BDFChar: 6862 5173 12 3 10 0 9
+f[p2>0FS$l0YdYg
+BDFChar: 6863 5174 12 3 10 0 6
+^bC_"N%i$I
+BDFChar: 6864 5175 12 3 10 0 6
+^b?27bV6g4
+BDFChar: 6865 5176 12 2 9 0 6
+!t6m!0FS$`
+BDFChar: 6866 5177 12 2 9 0 9
+!s8N*$o#IN$j-J0
+BDFChar: 6867 5178 12 2 9 -1 6
+5sZ\='\(20
+BDFChar: 6868 5179 12 3 10 -1 6
+Jq?BY-n>rB
+BDFChar: 6869 5180 12 2 9 0 7
+#ftL0+sK<=
+BDFChar: 6870 5181 12 3 10 0 7
+&/-QB6puWY
+BDFChar: 6871 5182 12 2 9 0 9
+$k*-We.a)N5sYJN
+BDFChar: 6872 5183 12 3 10 0 9
+(`35d.k!eRJq<t&
+BDFChar: 6873 5184 12 1 10 0 6
+0E;L]!s$-P_Z1)F0E;(Q
+BDFChar: 6874 5185 12 3 11 0 6
+^]6%g#QP$Y$%O]0^]4?7
+BDFChar: 6875 5186 12 1 10 0 9
+0E<d,!!"\Q$igA0^qdhf$ihs]
+BDFChar: 6876 5187 12 3 11 0 9
+^];.M!!'e70E;@Y"b6o00EAlg
+BDFChar: 6877 5188 12 1 9 0 6
+!It@S#QW3Oa8cDE!It.M
+BDFChar: 6878 5189 12 2 11 0 6
+!rr`00EAo(0Ye(s!rr<$
+BDFChar: 6879 5190 12 1 9 0 9
+!It3$!!!%M"ono/ciD,e"on[S
+BDFChar: 6880 5191 12 2 11 0 9
+!rrE'!!!*$$ihs]^q_Y>$igA0
+BDFChar: 6881 5192 12 2 9 0 9
+!ui'Z$o#IN$j-J0
+BDFChar: 6882 5193 6 0 5 3 7
+$o#IN$ig8-
+BDFChar: 6883 5194 6 2 2 4 6
+J:N.M
+BDFChar: 6884 5195 6 1 4 0 4
+J:QR>O8o7\
+BDFChar: 6885 5196 12 3 9 0 6
+JqAT+Jj_Qu
+BDFChar: 6886 5197 12 3 9 0 9
+&1A)L7"U#BJq<t&
+BDFChar: 6887 5198 12 3 9 0 6
+3(/@MJqARS
+BDFChar: 6888 5199 12 3 9 0 9
+(`3647"U#BJq<t&
+BDFChar: 6889 5200 12 3 9 0 6
+p]LX"!X/8u
+BDFChar: 6890 5201 12 3 9 0 9
+^q]sF"9JW+"S_rs
+BDFChar: 6891 5202 12 3 9 0 9
+f[p3!"9JW+"S_rs
+BDFChar: 6892 5203 12 3 9 0 6
+p]Mcb+p@Z@
+BDFChar: 6893 5204 12 3 9 0 6
+p]LY-@KcH+
+BDFChar: 6894 5205 12 3 9 0 6
+5!XXKJ3Z9u
+BDFChar: 6895 5206 12 3 9 0 9
+"pP&k5_+B85X#/J
+BDFChar: 6896 5207 12 1 9 0 6
++FkSb+FkSb+Fqi>c2[hE
+BDFChar: 6897 5208 12 3 11 0 6
+JcLB&JcLB&JcJ5i3Ih)0
+BDFChar: 6898 5209 12 1 9 0 6
+c2c5l+FkSb+FkSb+FjFl
+BDFChar: 6899 5210 12 3 11 0 6
+3IjPKJcLB&JcLB&JcGcN
+BDFChar: 6900 5211 12 1 9 0 9
+"oni-!!(:Ed/Y;>+FkSb+FkSb
+BDFChar: 6901 5212 12 3 11 0 9
+(]YBQ!!#$07=]siJcLB&JcLB&
+BDFChar: 6902 5213 12 1 9 0 6
+4obT`!._k8^jlFc4obQ_
+BDFChar: 6903 5214 12 3 11 0 6
+p](Es"98UU"b6^Up](9o
+BDFChar: 6904 5215 12 1 9 0 9
+0E<d,!!#1_!<<+M^js4N!<>:`
+BDFChar: 6905 5216 12 3 11 0 9
+^];.M!!)co"98Q)"b6c,"9A2s
+BDFChar: 6906 5217 12 1 9 0 6
+%tG2k&-1&Wci=UW%tFW[
+BDFChar: 6907 5218 12 3 11 0 6
+4odhJJ,k.NJUfuc4obQ_
+BDFChar: 6908 5219 12 1 9 0 9
+!It3$!!!O[&-*7AciDDm&-*5k
+BDFChar: 6909 5220 12 3 11 0 9
+"oni-!!#1_5QH<7JUi<%5QEtJ
+BDFChar: 6910 5221 12 1 9 0 6
+c[a@B+93Ma+99agc[Yuq
+BDFChar: 6911 5222 6 1 4 3 6
+E.EIX
+BDFChar: 6912 5223 12 3 11 0 6
+Jq/H'Jq/H'JcJ1=2uipY
+BDFChar: 6913 5224 12 3 11 0 6
+3.ODIJq/H'JcLB&JcGcN
+BDFChar: 6914 5225 12 3 11 0 6
+pj`Kt!e:?&!WW?'p](9o
+BDFChar: 6915 5226 12 3 11 0 6
+5(GnKJ:N0#J,hh74obQ_
+BDFChar: 6916 5227 12 4 8 -1 6
+E/9=+GR+Q\
+BDFChar: 6917 5228 12 4 8 -1 9
++Aa2"LkplVJ:N.M
+BDFChar: 6918 5229 12 4 8 -1 6
+E/9=+n:6%>
+BDFChar: 6919 5230 12 4 8 -1 9
+0JEKGLkplVJ:N.M
+BDFChar: 6920 5231 12 4 8 0 7
+#RC]\Lkpk+
+BDFChar: 6921 5232 12 4 8 0 9
+(`35Y#^D/]Li<=o
+BDFChar: 6922 5233 12 4 8 0 9
+f[p00#^D/]Li<=o
+BDFChar: 6923 5234 12 4 8 0 7
+J:N1>Lkpk+
+BDFChar: 6924 5235 12 4 8 0 9
+^q]r#JFJANLi<=o
+BDFChar: 6925 5236 12 1 8 -1 6
+%M99bcbTV_
+BDFChar: 6926 5237 12 4 11 -1 6
+E/9=+HOC)b
+BDFChar: 6927 5238 12 1 8 -1 6
+%M99bhTufF
+BDFChar: 6928 5239 12 4 11 -1 6
+E/9=+o7MRD
+BDFChar: 6929 5240 12 1 8 -1 9
+"pP&;&J5W3ck$`g
+BDFChar: 6930 5241 12 4 11 -1 9
+0JEKGLkplYK7JIP
+BDFChar: 6931 5242 12 1 8 0 7
+!<E5Id1Hs#
+BDFChar: 6932 5243 12 4 11 0 7
+#RC]_Mhm1.
+BDFChar: 6933 5244 12 1 8 0 9
+!s8N(!RK.*&Ind@
+BDFChar: 6934 5245 12 4 11 0 9
+(`35Y#^_JcLi<=o
+BDFChar: 6935 5246 12 1 8 0 7
+&.fE0d1Hs#
+BDFChar: 6936 5247 12 4 11 0 7
+J:N1AMhm1.
+BDFChar: 6937 5248 12 1 8 0 9
+(`35a&DkeH&Ind@
+BDFChar: 6938 5249 12 4 11 0 9
+^q]r#JFe\TLi<=o
+BDFChar: 6939 5250 12 1 8 0 7
+&CAcFdErO9
+BDFChar: 6940 5251 6 1 4 3 8
+J:QR>OC/%g
+BDFChar: 6941 5252 6 1 4 3 8
+&.ifBOC/%g
+BDFChar: 6942 5253 12 4 10 -1 6
+Ef,a3GR+Q\
+BDFChar: 6943 5254 12 4 10 -1 6
+Ef,a3n:6%>
+BDFChar: 6944 5255 12 4 10 0 7
+$47,dLkpk+
+BDFChar: 6945 5256 12 4 10 0 7
+JqAUFLkpk+
+BDFChar: 6946 5257 12 4 8 -1 6
+E/9=+#RC\A
+BDFChar: 6947 5258 12 4 8 -1 9
++Aa2"Lkpk;J:N.M
+BDFChar: 6948 5259 12 4 8 -1 6
+E/9=+J:N0#
+BDFChar: 6949 5260 12 4 8 -1 9
+0JEKGLkpk;J:N.M
+BDFChar: 6950 5261 12 4 8 0 7
+#RC\ALkpk+
+BDFChar: 6951 5262 12 4 8 0 9
+(`35Y#RH6BLi<=o
+BDFChar: 6952 5263 12 4 8 0 9
+f[p00#RH6BLi<=o
+BDFChar: 6953 5264 12 4 8 0 7
+J:N0#Lkpk+
+BDFChar: 6954 5265 12 4 8 0 9
+^q]r#J:NH3Li<=o
+BDFChar: 6955 5266 12 1 8 -1 6
+%M99b_8--Q
+BDFChar: 6956 5267 12 4 11 -1 6
+E/9=+$O[4G
+BDFChar: 6957 5268 12 1 8 -1 6
+%M99bd*N=8
+BDFChar: 6958 5269 12 4 11 -1 6
+E/9=+K7e])
+BDFChar: 6959 5270 12 1 8 -1 9
+"pP&;&J5W%ck$`g
+BDFChar: 6960 5271 12 4 11 -1 9
+0JEKGLkpk>K7JIP
+BDFChar: 6961 5272 12 1 8 0 7
+!<E5;d1Hs#
+BDFChar: 6962 5273 12 4 11 0 7
+#RC\DMhm1.
+BDFChar: 6963 5274 12 1 8 0 9
+!s8N(!Q!.q&Ind@
+BDFChar: 6964 5275 12 4 11 0 9
+(`35Y#RcQHLi<=o
+BDFChar: 6965 5276 12 1 8 0 7
+&.fE"d1Hs#
+BDFChar: 6966 5277 12 4 11 0 7
+J:N0&Mhm1.
+BDFChar: 6967 5278 12 1 8 0 9
+(`35a&CAf:&Ind@
+BDFChar: 6968 5279 12 4 11 0 9
+^q]r#J:ic9Li<=o
+BDFChar: 6969 5280 12 1 8 0 7
+&CAc8dErO9
+BDFChar: 6970 5281 6 1 4 3 8
+J:N03OC/%g
+BDFChar: 6971 5282 6 1 4 3 8
+&.fD7OC/%g
+BDFChar: 6972 5283 12 4 8 -1 6
+p]q-2#RC\A
+BDFChar: 6973 5284 12 4 8 -1 9
++Aa3UJ:N0#J:N.M
+BDFChar: 6974 5285 12 4 8 -1 6
+pjdmFJ:N0#
+BDFChar: 6975 5286 12 4 8 -1 9
+0JEM%J:N0#J:N.M
+BDFChar: 6976 5287 12 4 8 0 7
+#RC\A#RC_2
+BDFChar: 6977 5288 12 4 8 0 9
+(`35Y#RC\A#l"B"
+BDFChar: 6978 5289 12 4 8 0 9
+f[p00#RC\A#l"B"
+BDFChar: 6979 5290 12 4 8 0 7
+J:N0#J:N1F
+BDFChar: 6980 5291 12 4 8 0 9
+^q]r#J:N0#JG9*E
+BDFChar: 6981 5292 12 1 8 -1 6
+*ruBC_8--Q
+BDFChar: 6982 5293 12 4 11 -1 6
+p]q-2$O[4G
+BDFChar: 6983 5294 12 1 8 -1 6
+*tStpd*N=8
+BDFChar: 6984 5295 12 4 11 -1 6
+pjdmFK7e])
+BDFChar: 6985 5296 12 1 8 -1 9
+"pP&L&.fE"ck$`g
+BDFChar: 6986 5297 12 4 11 -1 9
+0JEM%J:N0&K7JIP
+BDFChar: 6987 5298 12 1 8 0 7
+!<E5;_#XQY
+BDFChar: 6988 5299 12 4 11 0 7
+#RC\D$O@%5
+BDFChar: 6989 5300 12 1 8 0 9
+!s8N(!PuSQ!?V:A
+BDFChar: 6990 5301 12 4 11 0 9
+(`35Y#R_"G#l"B"
+BDFChar: 6991 5302 12 1 8 0 7
+&.fE"ck$a1
+BDFChar: 6992 5303 12 4 11 0 7
+J:N0&K7JLI
+BDFChar: 6993 5304 12 1 8 0 9
+(`35a&CAc8&0ClP
+BDFChar: 6994 5305 12 4 11 0 9
+^q]r#J:iK)JG9*E
+BDFChar: 6995 5306 12 1 8 0 7
+&CAc8d*N=G
+BDFChar: 6996 5307 6 1 4 3 7
+J:N0#n,NFg
+BDFChar: 6997 5308 6 1 4 3 7
+@$#o#?iU0,
+BDFChar: 6998 5309 6 1 4 3 7
+&.fBan,NFg
+BDFChar: 6999 5310 6 1 4 3 7
+@#uKrn,NFg
+BDFChar: 7000 5311 12 4 8 0 7
+E/4c2+@(JP
+BDFChar: 7001 5312 12 2 9 0 4
+rXf_S%KHJ/
+BDFChar: 7002 5313 12 3 10 0 8
++Aa0\Iu&o:Du]k<
+BDFChar: 7003 5314 12 3 10 0 4
+Iu&o:Du]k<
+BDFChar: 7004 5315 12 3 10 0 7
+0JEKVLkpk+
+BDFChar: 7005 5316 12 2 9 0 4
+%M99brVuou
+BDFChar: 7006 5317 12 2 9 0 7
+$k*+G&J5WS
+BDFChar: 7007 5318 12 2 9 0 7
+)]Jbe&J5WS
+BDFChar: 7008 5319 12 3 10 0 4
+E/9=+IfKHK
+BDFChar: 7009 5320 12 3 10 0 7
+0JEKGLkpk:
+BDFChar: 7010 5321 12 1 9 0 4
+56/cTaFFPH#64`(
+BDFChar: 7011 5322 12 2 11 0 4
+qu@qV,/>B&)uos=
+BDFChar: 7012 5323 12 1 11 0 4
+%KOlVd/XaY&)[Ef
+BDFChar: 7013 5324 12 3 11 0 4
+EI`mrL]E52IfKHK
+BDFChar: 7014 5325 12 1 11 0 7
+"oni-!!!K/d/_Po&HE@"
+BDFChar: 7015 5326 12 3 11 0 7
+0E<d,!!%"hM1CB^L]Do)
+BDFChar: 7016 5327 12 3 10 0 7
+f[p1CLkpk:
+BDFChar: 7017 5328 6 1 5 4 6
+5bN?%
+BDFChar: 7018 5329 6 1 4 3 6
+OH>Q3
+BDFChar: 7019 5330 6 1 5 4 6
+&1I#J
+BDFChar: 7020 5331 12 2 9 0 4
+rW*$#%KHJ/
+BDFChar: 7021 5332 12 3 10 0 8
++Aa0\It3'"Du]k<
+BDFChar: 7022 5333 12 3 10 0 4
+It3'"Du]k<
+BDFChar: 7023 5334 12 3 10 0 7
+0JEKVJ:N/h
+BDFChar: 7024 5335 12 2 9 0 4
+%KQS2rVuou
+BDFChar: 7025 5336 12 2 9 0 7
+$k*+G!<E6#
+BDFChar: 7026 5337 12 2 9 0 7
+)]Jbe!<E6#
+BDFChar: 7027 5338 12 3 10 0 4
+E.EIhIfKHK
+BDFChar: 7028 5339 12 3 10 0 7
+0JEKGJ:N0"
+BDFChar: 7029 5340 12 1 9 0 4
+56/KL^jlE8#64`(
+BDFChar: 7030 5341 12 2 11 0 4
+qu?f6!l+j;)uos=
+BDFChar: 7031 5342 12 1 11 0 4
+&)be7ci=UW%KHJ/
+BDFChar: 7032 5343 12 3 11 0 4
+IK4qLJUi7NDu]k<
+BDFChar: 7033 5344 12 1 11 0 7
+"oni-!!!PfciDDm&-*1?
+BDFChar: 7034 5345 12 3 11 0 7
+0E<d,!!%HJJUi<%J,jNg
+BDFChar: 7035 5346 12 2 9 0 4
+cG9M^rVuou
+BDFChar: 7036 5347 12 2 11 0 4
+)up&U!l+j;qu?]s
+BDFChar: 7037 5348 12 2 9 0 7
+$k*-]_#XT9
+BDFChar: 7038 5349 12 2 11 0 7
+(]YBQ!!!u=!l+lQ!W`,u
+BDFChar: 7039 5350 12 1 11 0 4
+%KOiUci=UW&)[Ef
+BDFChar: 7040 5351 12 3 11 0 4
+EI`UjJ,k*"IfKHK
+BDFChar: 7041 5352 12 1 11 0 7
+"oni-!!!K/ciDDm&-*7!
+BDFChar: 7042 5353 12 3 11 0 7
+0E<d,!!%"hJUi7NJ,k'!
+BDFChar: 7043 5354 6 1 5 4 7
+5_+B0
+BDFChar: 7044 5355 6 1 5 3 7
+35@Mh2uipY
+BDFChar: 7045 5356 12 1 9 -1 7
+"+V?khuF_s"+V?khuF_s"+U@O
+BDFChar: 7046 5357 12 4 8 -1 6
+J:N/83!]cq
+BDFChar: 7047 5358 12 4 8 -1 9
++Aa0d#RD""J:N.M
+BDFChar: 7048 5359 12 4 8 -1 6
+#RC\Ii.-?.
+BDFChar: 7049 5360 12 4 8 -1 9
+(`35Y#RD""J:N.M
+BDFChar: 7050 5361 12 4 8 0 7
+#RC\q5_+B8
+BDFChar: 7051 5362 12 4 8 0 9
+(`35Y#WP)"J:IV"
+BDFChar: 7052 5363 12 4 8 0 9
+f[p00#WP)"J:IV"
+BDFChar: 7053 5364 12 4 8 0 7
+J:N1.&-rOI
+BDFChar: 7054 5365 12 4 8 0 9
+^q]r#JD^tE#RCD1
+BDFChar: 7055 5366 12 1 8 -1 6
+&.fBYa2%cW
+BDFChar: 7056 5367 12 4 11 -1 6
+J:N/83su<"
+BDFChar: 7057 5368 12 1 8 -1 6
+!<E3&gs?TD
+BDFChar: 7058 5369 12 4 11 -1 6
+#RC\Ij+Dl4
+BDFChar: 7059 5370 12 1 8 -1 9
+"pP&.!<E8Wck$`g
+BDFChar: 7060 5371 12 4 11 -1 9
+0JEJ4#RD"%K7JIP
+BDFChar: 7061 5372 12 1 8 0 7
+!<E5Aa:Jmo
+BDFChar: 7062 5373 12 4 11 0 7
+#RC\t6\'];
+BDFChar: 7063 5374 12 1 8 0 9
+!s8N(!QW7m&.egA
+BDFChar: 7064 5375 12 4 11 0 9
+(`35Y#WkD(J:IV"
+BDFChar: 7065 5376 12 1 8 0 7
+&.fE._>sZ<
+BDFChar: 7066 5377 12 4 11 0 7
+J:N11'*njL
+BDFChar: 7067 5378 12 1 8 0 9
+(`35a&DY,'!<E0#
+BDFChar: 7068 5379 12 4 11 0 9
+^q]r#JE%:K#RCD1
+BDFChar: 7069 5380 12 1 8 0 7
+&CAcD_SH6R
+BDFChar: 7070 5381 6 1 4 3 8
+J:QPh&.egA
+BDFChar: 7071 5382 6 1 4 0 4
+E.D=-huE`W
+BDFChar: 7072 5383 6 1 4 3 8
+&.if2J:IV"
+BDFChar: 7073 5384 6 1 5 4 6
+J:MkE
+BDFChar: 7074 5385 6 1 4 2 8
+J:QPh0Mikl
+BDFChar: 7075 5386 6 1 4 2 8
+&.if2^n<pm
+BDFChar: 7076 5387 6 1 3 1 9
+J,k+M^`Xa"+92BA
+BDFChar: 7077 5388 12 1 11 0 8
+J,fQLJ0;YC,6/,P,6._Z!$D7A
+BDFChar: 7078 5389 12 1 11 0 8
+J,fQLKAaZJ-iaMQ-iaAM"5j.Z
+BDFChar: 7079 5390 12 2 10 0 8
+J,fiTL]GKr0)u9.."DSR#64`(
+BDFChar: 7080 5391 12 2 10 0 8
+J,fiTL]GKr-iaO'."DSR#64`(
+BDFChar: -1 5392 12 0 0 0 0
+z
+BDFChar: -1 5393 12 0 0 0 0
+z
+BDFChar: -1 5394 12 0 0 0 0
+z
+BDFChar: -1 5395 12 0 0 0 0
+z
+BDFChar: -1 5396 12 0 0 0 0
+z
+BDFChar: -1 5397 12 0 0 0 0
+z
+BDFChar: -1 5398 12 0 0 0 0
+z
+BDFChar: -1 5399 12 0 0 0 0
+z
+BDFChar: -1 5400 12 0 0 0 0
+z
+BDFChar: -1 5401 12 0 0 0 0
+z
+BDFChar: -1 5402 12 0 0 0 0
+z
+BDFChar: -1 5403 12 0 0 0 0
+z
+BDFChar: -1 5404 12 0 0 0 0
+z
+BDFChar: -1 5405 12 0 0 0 0
+z
+BDFChar: -1 5406 12 0 0 0 0
+z
+BDFChar: -1 5407 12 0 0 0 0
+z
+BDFChar: -1 5408 12 0 0 0 0
+z
+BDFChar: -1 5409 12 0 0 0 0
+z
+BDFChar: -1 5410 12 0 0 0 0
+z
+BDFChar: -1 5411 12 0 0 0 0
+z
+BDFChar: -1 5412 12 0 0 0 0
+z
+BDFChar: -1 5413 12 0 0 0 0
+z
+BDFChar: -1 5414 12 0 0 0 0
+z
+BDFChar: -1 5415 12 0 0 0 0
+z
+BDFChar: -1 5416 12 0 0 0 0
+z
+BDFChar: -1 5417 12 0 0 0 0
+z
+BDFChar: -1 5418 12 0 0 0 0
+z
+BDFChar: -1 5419 12 0 0 0 0
+z
+BDFChar: -1 5420 12 0 0 0 0
+z
+BDFChar: -1 5421 12 0 0 0 0
+z
+BDFChar: -1 5422 12 0 0 0 0
+z
+BDFChar: -1 5423 12 0 0 0 0
+z
+BDFChar: -1 5424 12 0 0 0 0
+z
+BDFChar: -1 5425 12 0 0 0 0
+z
+BDFChar: -1 5426 12 0 0 0 0
+z
+BDFChar: -1 5427 12 0 0 0 0
+z
+BDFChar: -1 5428 12 0 0 0 0
+z
+BDFChar: -1 5429 12 0 0 0 0
+z
+BDFChar: -1 5430 12 0 0 0 0
+z
+BDFChar: -1 5431 12 0 0 0 0
+z
+BDFChar: -1 5432 12 0 0 0 0
+z
+BDFChar: -1 5433 12 0 0 0 0
+z
+BDFChar: -1 5434 12 0 0 0 0
+z
+BDFChar: -1 5435 12 0 0 0 0
+z
+BDFChar: -1 5436 12 0 0 0 0
+z
+BDFChar: -1 5437 12 0 0 0 0
+z
+BDFChar: -1 5438 12 0 0 0 0
+z
+BDFChar: -1 5439 12 0 0 0 0
+z
+BDFChar: -1 5440 12 0 0 0 0
+z
+BDFChar: -1 5441 12 0 0 0 0
+z
+BDFChar: -1 5442 12 0 0 0 0
+z
+BDFChar: -1 5443 12 0 0 0 0
+z
+BDFChar: -1 5444 12 0 0 0 0
+z
+BDFChar: -1 5445 12 0 0 0 0
+z
+BDFChar: -1 5446 12 0 0 0 0
+z
+BDFChar: -1 5447 12 0 0 0 0
+z
+BDFChar: -1 5448 12 0 0 0 0
+z
+BDFChar: -1 5449 12 0 0 0 0
+z
+BDFChar: -1 5450 12 0 0 0 0
+z
+BDFChar: -1 5451 12 0 0 0 0
+z
+BDFChar: -1 5452 12 0 0 0 0
+z
+BDFChar: -1 5453 12 0 0 0 0
+z
+BDFChar: -1 5454 12 0 0 0 0
+z
+BDFChar: -1 5455 12 0 0 0 0
+z
+BDFChar: -1 5456 12 0 0 0 0
+z
+BDFChar: -1 5457 12 0 0 0 0
+z
+BDFChar: -1 5458 12 0 0 0 0
+z
+BDFChar: -1 5459 12 0 0 0 0
+z
+BDFChar: -1 5460 12 0 0 0 0
+z
+BDFChar: -1 5461 12 0 0 0 0
+z
+BDFChar: -1 5462 12 0 0 0 0
+z
+BDFChar: -1 5463 12 0 0 0 0
+z
+BDFChar: -1 5464 12 0 0 0 0
+z
+BDFChar: -1 5465 12 0 0 0 0
+z
+BDFChar: -1 5466 12 0 0 0 0
+z
+BDFChar: -1 5467 12 0 0 0 0
+z
+BDFChar: -1 5468 12 0 0 0 0
+z
+BDFChar: -1 5469 12 0 0 0 0
+z
+BDFChar: -1 5470 12 0 0 0 0
+z
+BDFChar: -1 5471 12 0 0 0 0
+z
+BDFChar: -1 5472 12 0 0 0 0
+z
+BDFChar: -1 5473 12 0 0 0 0
+z
+BDFChar: -1 5474 12 0 0 0 0
+z
+BDFChar: -1 5475 12 0 0 0 0
+z
+BDFChar: -1 5476 12 0 0 0 0
+z
+BDFChar: -1 5477 12 0 0 0 0
+z
+BDFChar: -1 5478 12 0 0 0 0
+z
+BDFChar: -1 5479 12 0 0 0 0
+z
+BDFChar: -1 5480 12 0 0 0 0
+z
+BDFChar: -1 5481 12 0 0 0 0
+z
+BDFChar: -1 5482 12 0 0 0 0
+z
+BDFChar: -1 5483 12 0 0 0 0
+z
+BDFChar: -1 5484 12 0 0 0 0
+z
+BDFChar: -1 5485 12 0 0 0 0
+z
+BDFChar: -1 5486 12 0 0 0 0
+z
+BDFChar: -1 5487 12 0 0 0 0
+z
+BDFChar: -1 5488 12 0 0 0 0
+z
+BDFChar: -1 5489 12 0 0 0 0
+z
+BDFChar: -1 5490 12 0 0 0 0
+z
+BDFChar: -1 5491 12 0 0 0 0
+z
+BDFChar: -1 5492 12 0 0 0 0
+z
+BDFChar: -1 5493 12 0 0 0 0
+z
+BDFChar: -1 5494 12 0 0 0 0
+z
+BDFChar: -1 5495 12 0 0 0 0
+z
+BDFChar: -1 5496 12 0 0 0 0
+z
+BDFChar: -1 5497 12 0 0 0 0
+z
+BDFChar: -1 5498 12 0 0 0 0
+z
+BDFChar: -1 5499 12 0 0 0 0
+z
+BDFChar: -1 5500 12 0 0 0 0
+z
+BDFChar: -1 5501 12 0 0 0 0
+z
+BDFChar: -1 5502 12 0 0 0 0
+z
+BDFChar: -1 5503 12 0 0 0 0
+z
+BDFChar: -1 5504 12 0 0 0 0
+z
+BDFChar: -1 5505 12 0 0 0 0
+z
+BDFChar: -1 5506 12 0 0 0 0
+z
+BDFChar: -1 5507 12 0 0 0 0
+z
+BDFChar: -1 5508 12 0 0 0 0
+z
+BDFChar: -1 5509 12 0 0 0 0
+z
+BDFChar: -1 5510 12 0 0 0 0
+z
+BDFChar: -1 5511 12 0 0 0 0
+z
+BDFChar: -1 5512 12 0 0 0 0
+z
+BDFChar: -1 5513 12 0 0 0 0
+z
+BDFChar: -1 5514 12 0 0 0 0
+z
+BDFChar: -1 5515 12 0 0 0 0
+z
+BDFChar: -1 5516 12 0 0 0 0
+z
+BDFChar: -1 5517 12 0 0 0 0
+z
+BDFChar: -1 5518 12 0 0 0 0
+z
+BDFChar: -1 5519 12 0 0 0 0
+z
+BDFChar: -1 5520 12 0 0 0 0
+z
+BDFChar: -1 5521 12 0 0 0 0
+z
+BDFChar: -1 5522 12 0 0 0 0
+z
+BDFChar: -1 5523 12 0 0 0 0
+z
+BDFChar: -1 5524 12 0 0 0 0
+z
+BDFChar: -1 5525 12 0 0 0 0
+z
+BDFChar: -1 5526 12 0 0 0 0
+z
+BDFChar: -1 5527 12 0 0 0 0
+z
+BDFChar: -1 5528 12 0 0 0 0
+z
+BDFChar: -1 5529 12 0 0 0 0
+z
+BDFChar: -1 5530 12 0 0 0 0
+z
+BDFChar: -1 5531 12 0 0 0 0
+z
+BDFChar: -1 5532 12 0 0 0 0
+z
+BDFChar: -1 5533 12 0 0 0 0
+z
+BDFChar: -1 5534 12 0 0 0 0
+z
+BDFChar: -1 5535 12 0 0 0 0
+z
+BDFChar: -1 5536 12 0 0 0 0
+z
+BDFChar: -1 5537 12 0 0 0 0
+z
+BDFChar: -1 5538 12 0 0 0 0
+z
+BDFChar: -1 5539 12 0 0 0 0
+z
+BDFChar: -1 5540 12 0 0 0 0
+z
+BDFChar: -1 5541 12 0 0 0 0
+z
+BDFChar: -1 5542 12 0 0 0 0
+z
+BDFChar: -1 5543 12 0 0 0 0
+z
+BDFChar: -1 5544 12 0 0 0 0
+z
+BDFChar: -1 5545 12 0 0 0 0
+z
+BDFChar: -1 5546 12 0 0 0 0
+z
+BDFChar: -1 5547 12 0 0 0 0
+z
+BDFChar: -1 5548 12 0 0 0 0
+z
+BDFChar: -1 5549 12 0 0 0 0
+z
+BDFChar: -1 5550 12 0 0 0 0
+z
+BDFChar: -1 5551 12 0 0 0 0
+z
+BDFChar: -1 5552 12 0 0 0 0
+z
+BDFChar: -1 5553 12 0 0 0 0
+z
+BDFChar: -1 5554 12 0 0 0 0
+z
+BDFChar: -1 5555 12 0 0 0 0
+z
+BDFChar: -1 5556 12 0 0 0 0
+z
+BDFChar: -1 5557 12 0 0 0 0
+z
+BDFChar: -1 5558 12 0 0 0 0
+z
+BDFChar: -1 5559 12 0 0 0 0
+z
+BDFChar: -1 5560 12 0 0 0 0
+z
+BDFChar: -1 5561 12 0 0 0 0
+z
+BDFChar: -1 5562 12 0 0 0 0
+z
+BDFChar: -1 5563 12 0 0 0 0
+z
+BDFChar: -1 5564 12 0 0 0 0
+z
+BDFChar: -1 5565 12 0 0 0 0
+z
+BDFChar: -1 5566 12 0 0 0 0
+z
+BDFChar: -1 5567 12 0 0 0 0
+z
+BDFChar: -1 5568 12 0 0 0 0
+z
+BDFChar: -1 5569 12 0 0 0 0
+z
+BDFChar: -1 5570 12 0 0 0 0
+z
+BDFChar: -1 5571 12 0 0 0 0
+z
+BDFChar: -1 5572 12 0 0 0 0
+z
+BDFChar: -1 5573 12 0 0 0 0
+z
+BDFChar: -1 5574 12 0 0 0 0
+z
+BDFChar: -1 5575 12 0 0 0 0
+z
+BDFChar: -1 5576 12 0 0 0 0
+z
+BDFChar: -1 5577 12 0 0 0 0
+z
+BDFChar: -1 5578 12 0 0 0 0
+z
+BDFChar: -1 5579 12 0 0 0 0
+z
+BDFChar: -1 5580 12 0 0 0 0
+z
+BDFChar: -1 5581 12 0 0 0 0
+z
+BDFChar: -1 5582 12 0 0 0 0
+z
+BDFChar: -1 5583 12 0 0 0 0
+z
+BDFChar: -1 5584 12 0 0 0 0
+z
+BDFChar: -1 5585 12 0 0 0 0
+z
+BDFChar: -1 5586 12 0 0 0 0
+z
+BDFChar: -1 5587 12 0 0 0 0
+z
+BDFChar: -1 5588 12 0 0 0 0
+z
+BDFChar: -1 5589 12 0 0 0 0
+z
+BDFChar: -1 5590 12 0 0 0 0
+z
+BDFChar: -1 5591 12 0 0 0 0
+z
+BDFChar: -1 5592 12 0 0 0 0
+z
+BDFChar: -1 5593 12 0 0 0 0
+z
+BDFChar: -1 5594 12 0 0 0 0
+z
+BDFChar: -1 5595 12 0 0 0 0
+z
+BDFChar: -1 5596 12 0 0 0 0
+z
+BDFChar: -1 5597 12 0 0 0 0
+z
+BDFChar: -1 5598 12 0 0 0 0
+z
+BDFChar: -1 5599 12 0 0 0 0
+z
+BDFChar: -1 5600 12 0 0 0 0
+z
+BDFChar: -1 5601 12 0 0 0 0
+z
+BDFChar: -1 5602 12 0 0 0 0
+z
+BDFChar: -1 5603 12 0 0 0 0
+z
+BDFChar: -1 5604 12 0 0 0 0
+z
+BDFChar: -1 5605 12 0 0 0 0
+z
+BDFChar: -1 5606 12 0 0 0 0
+z
+BDFChar: -1 5607 12 0 0 0 0
+z
+BDFChar: -1 5608 12 0 0 0 0
+z
+BDFChar: -1 5609 12 0 0 0 0
+z
+BDFChar: -1 5610 12 0 0 0 0
+z
+BDFChar: -1 5611 12 0 0 0 0
+z
+BDFChar: -1 5612 12 0 0 0 0
+z
+BDFChar: -1 5613 12 0 0 0 0
+z
+BDFChar: -1 5614 12 0 0 0 0
+z
+BDFChar: -1 5615 12 0 0 0 0
+z
+BDFChar: -1 5616 12 0 0 0 0
+z
+BDFChar: -1 5617 12 0 0 0 0
+z
+BDFChar: -1 5618 12 0 0 0 0
+z
+BDFChar: -1 5619 12 0 0 0 0
+z
+BDFChar: -1 5620 12 0 0 0 0
+z
+BDFChar: -1 5621 12 0 0 0 0
+z
+BDFChar: -1 5622 12 0 0 0 0
+z
+BDFChar: -1 5623 12 0 0 0 0
+z
+BDFChar: -1 5624 12 0 0 0 0
+z
+BDFChar: -1 5625 12 0 0 0 0
+z
+BDFChar: -1 5626 12 0 0 0 0
+z
+BDFChar: -1 5627 12 0 0 0 0
+z
+BDFChar: -1 5628 12 0 0 0 0
+z
+BDFChar: -1 5629 12 0 0 0 0
+z
+BDFChar: -1 5630 12 0 0 0 0
+z
+BDFChar: -1 5631 12 0 0 0 0
+z
+BDFChar: -1 5632 12 0 0 0 0
+z
+BDFChar: -1 5633 12 0 0 0 0
+z
+BDFChar: -1 5634 12 0 0 0 0
+z
+BDFChar: -1 5635 12 0 0 0 0
+z
+BDFChar: -1 5636 12 0 0 0 0
+z
+BDFChar: -1 5637 12 0 0 0 0
+z
+BDFChar: -1 5638 12 0 0 0 0
+z
+BDFChar: -1 5639 12 0 0 0 0
+z
+BDFChar: -1 5640 12 0 0 0 0
+z
+BDFChar: -1 5641 12 0 0 0 0
+z
+BDFChar: -1 5642 12 0 0 0 0
+z
+BDFChar: -1 5643 12 0 0 0 0
+z
+BDFChar: -1 5644 12 0 0 0 0
+z
+BDFChar: -1 5645 12 0 0 0 0
+z
+BDFChar: -1 5646 12 0 0 0 0
+z
+BDFChar: -1 5647 12 0 0 0 0
+z
+BDFChar: -1 5648 12 0 0 0 0
+z
+BDFChar: -1 5649 12 0 0 0 0
+z
+BDFChar: -1 5650 12 0 0 0 0
+z
+BDFChar: -1 5651 12 0 0 0 0
+z
+BDFChar: -1 5652 12 0 0 0 0
+z
+BDFChar: -1 5653 12 0 0 0 0
+z
+BDFChar: -1 5654 12 0 0 0 0
+z
+BDFChar: -1 5655 12 0 0 0 0
+z
+BDFChar: -1 5656 12 0 0 0 0
+z
+BDFChar: -1 5657 12 0 0 0 0
+z
+BDFChar: -1 5658 12 0 0 0 0
+z
+BDFChar: -1 5659 12 0 0 0 0
+z
+BDFChar: -1 5660 12 0 0 0 0
+z
+BDFChar: -1 5661 12 0 0 0 0
+z
+BDFChar: -1 5662 12 0 0 0 0
+z
+BDFChar: -1 5663 12 0 0 0 0
+z
+BDFChar: -1 5664 12 0 0 0 0
+z
+BDFChar: -1 5665 12 0 0 0 0
+z
+BDFChar: -1 5666 12 0 0 0 0
+z
+BDFChar: -1 5667 12 0 0 0 0
+z
+BDFChar: -1 5668 12 0 0 0 0
+z
+BDFChar: -1 5669 12 0 0 0 0
+z
+BDFChar: -1 5670 12 0 0 0 0
+z
+BDFChar: -1 5671 12 0 0 0 0
+z
+BDFChar: -1 5672 12 0 0 0 0
+z
+BDFChar: -1 5673 12 0 0 0 0
+z
+BDFChar: -1 5674 12 0 0 0 0
+z
+BDFChar: -1 5675 12 0 0 0 0
+z
+BDFChar: -1 5676 12 0 0 0 0
+z
+BDFChar: -1 5677 12 0 0 0 0
+z
+BDFChar: -1 5678 12 0 0 0 0
+z
+BDFChar: -1 5679 12 0 0 0 0
+z
+BDFChar: -1 5680 12 0 0 0 0
+z
+BDFChar: -1 5681 12 0 0 0 0
+z
+BDFChar: -1 5682 12 0 0 0 0
+z
+BDFChar: -1 5683 12 0 0 0 0
+z
+BDFChar: -1 5684 12 0 0 0 0
+z
+BDFChar: -1 5685 12 0 0 0 0
+z
+BDFChar: -1 5686 12 0 0 0 0
+z
+BDFChar: -1 5687 12 0 0 0 0
+z
+BDFChar: -1 5688 12 0 0 0 0
+z
+BDFChar: -1 5689 12 0 0 0 0
+z
+BDFChar: -1 5690 12 0 0 0 0
+z
+BDFChar: -1 5691 12 0 0 0 0
+z
+BDFChar: -1 5692 12 0 0 0 0
+z
+BDFChar: -1 5693 12 0 0 0 0
+z
+BDFChar: -1 5694 12 0 0 0 0
+z
+BDFChar: -1 5695 12 0 0 0 0
+z
+BDFChar: -1 5696 12 0 0 0 0
+z
+BDFChar: -1 5697 12 0 0 0 0
+z
+BDFChar: -1 5698 12 0 0 0 0
+z
+BDFChar: -1 5699 12 0 0 0 0
+z
+BDFChar: -1 5700 12 0 0 0 0
+z
+BDFChar: -1 5701 12 0 0 0 0
+z
+BDFChar: -1 5702 12 0 0 0 0
+z
+BDFChar: -1 5703 12 0 0 0 0
+z
+BDFChar: -1 5704 12 0 0 0 0
+z
+BDFChar: -1 5705 12 0 0 0 0
+z
+BDFChar: -1 5706 12 0 0 0 0
+z
+BDFChar: -1 5707 12 0 0 0 0
+z
+BDFChar: -1 5708 12 0 0 0 0
+z
+BDFChar: -1 5709 12 0 0 0 0
+z
+BDFChar: -1 5710 12 0 0 0 0
+z
+BDFChar: -1 5711 12 0 0 0 0
+z
+BDFChar: -1 5712 12 0 0 0 0
+z
+BDFChar: -1 5713 12 0 0 0 0
+z
+BDFChar: -1 5714 12 0 0 0 0
+z
+BDFChar: -1 5715 12 0 0 0 0
+z
+BDFChar: -1 5716 12 0 0 0 0
+z
+BDFChar: -1 5717 12 0 0 0 0
+z
+BDFChar: -1 5718 12 0 0 0 0
+z
+BDFChar: -1 5719 12 0 0 0 0
+z
+BDFChar: -1 5720 12 0 0 0 0
+z
+BDFChar: -1 5721 12 0 0 0 0
+z
+BDFChar: -1 5722 12 0 0 0 0
+z
+BDFChar: -1 5723 12 0 0 0 0
+z
+BDFChar: -1 5724 12 0 0 0 0
+z
+BDFChar: -1 5725 12 0 0 0 0
+z
+BDFChar: -1 5726 12 0 0 0 0
+z
+BDFChar: -1 5727 12 0 0 0 0
+z
+BDFChar: -1 5728 12 0 0 0 0
+z
+BDFChar: -1 5729 12 0 0 0 0
+z
+BDFChar: -1 5730 12 0 0 0 0
+z
+BDFChar: -1 5731 12 0 0 0 0
+z
+BDFChar: -1 5732 12 0 0 0 0
+z
+BDFChar: -1 5733 12 0 0 0 0
+z
+BDFChar: -1 5734 12 0 0 0 0
+z
+BDFChar: -1 5735 12 0 0 0 0
+z
+BDFChar: -1 5736 12 0 0 0 0
+z
+BDFChar: -1 5737 12 0 0 0 0
+z
+BDFChar: -1 5738 12 0 0 0 0
+z
+BDFChar: -1 5739 12 0 0 0 0
+z
+BDFChar: -1 5740 12 0 0 0 0
+z
+BDFChar: -1 5741 12 0 0 0 0
+z
+BDFChar: -1 5742 12 0 0 0 0
+z
+BDFChar: -1 5743 12 0 0 0 0
+z
+BDFChar: -1 5744 12 0 0 0 0
+z
+BDFChar: -1 5745 12 0 0 0 0
+z
+BDFChar: -1 5746 12 0 0 0 0
+z
+BDFChar: -1 5747 12 0 0 0 0
+z
+BDFChar: -1 5748 12 0 0 0 0
+z
+BDFChar: -1 5749 12 0 0 0 0
+z
+BDFChar: -1 5750 12 0 0 0 0
+z
+BDFChar: -1 5751 12 0 0 0 0
+z
+BDFChar: -1 5752 12 0 0 0 0
+z
+BDFChar: -1 5753 12 0 0 0 0
+z
+BDFChar: -1 5754 12 0 0 0 0
+z
+BDFChar: -1 5755 12 0 0 0 0
+z
+BDFChar: -1 5756 12 0 0 0 0
+z
+BDFChar: -1 5757 12 0 0 0 0
+z
+BDFChar: -1 5758 12 0 0 0 0
+z
+BDFChar: -1 5759 12 0 0 0 0
+z
 BDFRefChar: 1607 1552 0 0 N
 BDFRefChar: 1608 1551 0 0 N
 BDFRefChar: 1609 1549 0 0 N
