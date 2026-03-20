@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1773974391
+ModificationTime: 1773976618
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -122,11 +122,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 5744 16 13
+WinInfo: 5648 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 6780
+BeginChars: 1114112 6809
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -58522,8 +58522,211 @@ Width: 1024
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: uni1680
+Encoding: 5760 5760 6780
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1681
+Encoding: 5761 5761 6781
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1682
+Encoding: 5762 5762 6782
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1683
+Encoding: 5763 5763 6783
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1684
+Encoding: 5764 5764 6784
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1685
+Encoding: 5765 5765 6785
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1686
+Encoding: 5766 5766 6786
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1687
+Encoding: 5767 5767 6787
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1688
+Encoding: 5768 5768 6788
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1689
+Encoding: 5769 5769 6789
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni168A
+Encoding: 5770 5770 6790
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni168B
+Encoding: 5771 5771 6791
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni168C
+Encoding: 5772 5772 6792
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni168D
+Encoding: 5773 5773 6793
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni168E
+Encoding: 5774 5774 6794
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni168F
+Encoding: 5775 5775 6795
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1690
+Encoding: 5776 5776 6796
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1691
+Encoding: 5777 5777 6797
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1692
+Encoding: 5778 5778 6798
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1693
+Encoding: 5779 5779 6799
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1694
+Encoding: 5780 5780 6800
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1695
+Encoding: 5781 5781 6801
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1696
+Encoding: 5782 5782 6802
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1697
+Encoding: 5783 5783 6803
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1698
+Encoding: 5784 5784 6804
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni1699
+Encoding: 5785 5785 6805
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni169A
+Encoding: 5786 5786 6806
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni169B
+Encoding: 5787 5787 6807
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni169C
+Encoding: 5788 5788 6808
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 6780 10 3 1
+BitmapFont: 13 6809 10 3 1
 BDFStartProperties: 42
 FONT 1 "-una-CozetteUCSUR-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
@@ -72129,6 +72332,64 @@ BDFChar: 6778 5879 6 1 5 -1 7
 +<VdL+AbmjL]@DT
 BDFChar: 6779 5880 6 5 5 0 0
 z
+BDFChar: 6780 5760 6 0 5 4 4
+qu?]s
+BDFChar: 6781 5761 6 0 5 0 4
+r"'DN&-)\1
+BDFChar: 6782 5762 6 0 5 0 4
+r$WsA-ia5I
+BDFChar: 6783 5763 6 0 5 0 4
+r)?Wp;ucmu
+BDFChar: 6784 5764 8 0 7 0 4
+s&E'!<<*"!
+BDFChar: 6785 5765 10 0 9 0 4
+s1hW"<BsPL<BpNa
+BDFChar: 6786 5766 6 0 5 4 8
+&.fBaqu?]s
+BDFChar: 6787 5767 6 0 5 4 8
+-n$Jlqu?]s
+BDFChar: 6788 5768 6 0 5 4 8
+<)cgrqu?]s
+BDFChar: 6789 5769 8 0 7 4 8
+<E3%!rr<$!
+BDFChar: 6790 5770 10 0 9 4 8
+<BsPL<BsPLs1eU7
+BDFChar: 6791 5771 6 0 5 0 8
+&.fBar#d+)+92BA
+BDFChar: 6792 5772 6 0 5 0 8
+'GM5qr$WsA-ia5I
+BDFChar: 6793 5773 6 0 5 0 8
+<)cgrr)?Wp;ucmu
+BDFChar: 6794 5774 8 0 7 0 8
+<E3%!s&E'!<<*"!
+BDFChar: 6795 5775 10 0 9 0 8
+<BsPL<BsPLs1hW"<BsPL<BpNa
+BDFChar: 6796 5776 6 0 5 3 5
+&H!(>
+BDFChar: 6797 5777 6 0 5 3 5
+./YIn
+BDFChar: 6798 5778 6 0 5 3 5
+<;]\q
+BDFChar: 6799 5779 8 0 7 3 5
+<W?&!
+BDFChar: 6800 5780 10 0 9 3 5
+<C$T"<BpNa
+BDFChar: 6801 5781 6 0 5 0 8
+-n$JTr"(8)-ia5I
+BDFChar: 6802 5782 6 0 5 0 8
+&.g6<r$Ws)&-)\1
+BDFChar: 6803 5783 6 0 5 0 4
+r'4LTHiO-H
+BDFChar: 6804 5784 6 0 5 0 4
+r)>(D;ucmu
+BDFChar: 6805 5785 6 0 5 4 8
+Hmj@jqu?]s
+BDFChar: 6806 5786 6 0 5 2 4
+quD*E
+BDFChar: 6807 5787 6 0 5 0 8
+J3Y4g$kOOHJ,fQL
+BDFChar: 6808 5788 6 0 5 0 8
+":,P]^`X0o"98E%
 BDFRefChar: 1607 1552 0 0 N
 BDFRefChar: 1608 1551 0 0 N
 BDFRefChar: 1609 1549 0 0 N
