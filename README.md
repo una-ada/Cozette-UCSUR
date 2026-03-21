@@ -337,7 +337,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+01FA70..U+01FAFF` Symbols and Pictographs Extended-A
 - [ ] Under-ConScript Unicode Registry
   - [x] `U+E000..U+E07F` Tengwar
-  - [ ] `U+E080..U+E0FF` Cirth
+  - [x] `U+E080..U+E0FF` Cirth
   - [ ] `U+E100..U+E14F` Engsvanyáli
   - [ ] `U+E150..U+E1AF` Kinya
   - [ ] `U+E1B0..U+E1CF` Ilianóre
