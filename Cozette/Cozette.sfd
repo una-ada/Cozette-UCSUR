@@ -1,17 +1,16 @@
 SplineFontDB: 3.2
-FontName: Cozette
-FullName: Cozette
-FamilyName: Cozette
-Weight: Medium
+FontName: CozetteUCSUR
+FullName: Cozette-(U)CSUR
+FamilyName: CozetteUCSUR
+Weight: Regular
 Copyright: (c) 2020-2026 Una Ada <un@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>
-Version: 1.0
+Version: 1.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 1575
 Descent: 473
 InvalidEm: 0
-sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -22,9 +21,9 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1774068167
+ModificationTime: 1774069047
 PfmFamily: 49
-TTFWeight: 500
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 102
 VLineGap: 0
@@ -54,8 +53,6 @@ OS2StrikeYSize: 2048
 OS2StrikeYPos: 512
 OS2Vendor: 'UNKN'
 MarkAttachClasses: 1
-MarkAttachSets: 1
-"thaanVowel" 87 uni07A6 uni07A7 uni07A8 uni07A9 uni07AA uni07AB uni07AC uni07AD uni07AE uni07AF uni07B0
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the +ACIA-Software+ACIA), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.+AAoACgAA-THE SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." "https://opensource.org/licenses/MIT"
 MATH:ScriptPercentScaleDown: 80
@@ -122,7 +119,7 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 1056 16 13
+WinInfo: 1040 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -64473,9 +64470,9 @@ AVERAGE_WIDTH 18 60
 CHARSET_REGISTRY 16 "ISO10646"
 CHARSET_ENCODING 16 "1"
 FONTNAME_REGISTRY 16 ""
-FONT_NAME 16 "Cozette"
+FONT_NAME 16 "CozetteUCSUR"
 FACE_NAME 16 "Cozette"
-COPYRIGHT 16 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
+COPYRIGHT 16 "(c) 2020-2026 Una Ada <un@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
 FONT_VERSION 16 "1.0"
 FONT_ASCENT 18 10
 FONT_DESCENT 18 3
