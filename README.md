@@ -27,6 +27,10 @@ A full character map is available at [猫.dev].
 # Roadmap 
 
 - [ ] Unicode Basic Multilingual Plane
+  - [x] `U+0180..U+024F` Latin Extended-B
+  - [x] `U+0250..U+02AF` IPA Extensions
+  - [x] `U+02B0..U+02FF` Spacing Modifier Letters
+  - [x] `U+0370..U+03FF` Greek and Coptic
   - [x] `U+0530..U+058F` Armenian
   - [ ] `U+0590..U+05FF` Hebrew
   - [ ] `U+0600..U+06FF` Arabic
@@ -59,8 +63,8 @@ A full character map is available at [猫.dev].
   - [ ] `U+1380..U+139F` Ethiopic Supplement
   - [ ] `U+13A0..U+13FF` Cherokee
   - [ ] `U+1400..U+167F` Unified Canadian Aboriginal Syllabics
-  - [ ] `U+1680..U+169F` Ogham
-  - [ ] `U+16A0..U+16FF` Runic
+  - [x] `U+1680..U+169F` Ogham
+  - [x] `U+16A0..U+16FF` Runic
   - [ ] `U+1700..U+171F` Tagalog
   - [ ] `U+1720..U+173F` Hanunoo
   - [ ] `U+1740..U+175F` Buhid
@@ -107,7 +111,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+2A00..U+2AFF` Supplemental Mathematical Operators
   - [ ] `U+2B00..U+2BFF` Miscellaneous Symbols and Arrows
   - [x] `U+2C00..U+2C5F` Glagolitic
-  - [ ] `U+2C60..U+2C7F` Latin Extended-C
+  - [x] `U+2C60..U+2C7F` Latin Extended-C
   - [x] `U+2C80..U+2CFF` Coptic
   - [ ] `U+2D00..U+2D2F` Georgian Supplement
   - [x] `U+2D30..U+2D7F` Tifinagh
@@ -337,19 +341,19 @@ A full character map is available at [猫.dev].
   - [ ] `U+E1B0..U+E1CF` Ilianóre
   - [ ] `U+E1D0..U+E1FF` Syai
   - [ ] `U+E200..U+E26F` Verdurian
-  - [ ] `U+E280...U+E29F` aUI
-  - [ ] `U+E2A0...U+E2CF` Amman-iar
-  - [ ] `U+E2D0...U+E2FF` Xaîni
-  - [ ] `U+E300...U+E33F` Mizarian
-  - [ ] `U+E340...U+E35F` Zíirí:nka
-  - [ ] `U+E3B0...U+E3FF` Olaetyan
-  - [ ] `U+E400...U+E42F` Nísklôz
-  - [ ] `U+E430...U+E44F` Kazat ?Akkorou
-  - [ ] `U+E450...U+E46F` Kazvarad
-  - [ ] `U+E470...U+E48F` Zarkhánd
-  - [ ] `U+E490...U+E4BF` Røzhxh
-  - [ ] `U+E4C0...U+E4EF` Serivelna
-  - [ ] `U+E4F0...U+E4FF` Kelwathi
+  - [ ] `U+E280..U+E29F` aUI
+  - [ ] `U+E2A0..U+E2CF` Amman-iar
+  - [ ] `U+E2D0..U+E2FF` Xaîni
+  - [ ] `U+E300..U+E33F` Mizarian
+  - [ ] `U+E340..U+E35F` Zíirí:nka
+  - [ ] `U+E3B0..U+E3FF` Olaetyan
+  - [ ] `U+E400..U+E42F` Nísklôz
+  - [ ] `U+E430..U+E44F` Kazat ?Akkorou
+  - [ ] `U+E450..U+E46F` Kazvarad
+  - [ ] `U+E470..U+E48F` Zarkhánd
+  - [ ] `U+E490..U+E4BF` Røzhxh
+  - [ ] `U+E4C0..U+E4EF` Serivelna
+  - [ ] `U+E4F0..U+E4FF` Kelwathi
   - [ ] `U+E500..U+E51F` Saklor
   - [ ] `U+E520..U+E54F` Rynnan
   - [ ] `U+E550..U+E57F` Alzetjan

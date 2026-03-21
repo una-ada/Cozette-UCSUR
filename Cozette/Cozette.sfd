@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1774065859
+ModificationTime: 1774066532
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -122,11 +122,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 544 16 13
+WinInfo: 640 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 7572
+BeginChars: 1114112 7577
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -64066,8 +64066,43 @@ Width: 1024
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: uni02EA
+Encoding: 746 746 7572
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni02EB
+Encoding: 747 747 7573
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni02EE
+Encoding: 750 750 7574
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni02F8
+Encoding: 760 760 7575
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni02FF
+Encoding: 767 767 7576
+Width: 1024
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 7573 10 3 1
+BitmapFont: 13 7578 10 3 1
 BDFStartProperties: 42
 FONT 1 "-una-CozetteUCSUR-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
@@ -79259,6 +79294,16 @@ BDFChar: 7570 684 6 1 5 0 7
 Lo>8hLo>8h
 BDFChar: 7571 685 6 1 5 0 7
 pkX_+!;MA+
+BDFChar: 7572 746 6 2 4 0 4
+J:N0#huE`W
+BDFChar: 7573 747 6 2 4 0 4
+J:QR.J,fQL
+BDFChar: 7574 750 6 1 5 7 9
+fLV)(
+BDFChar: 7575 760 6 3 3 6 8
+J,k*"
+BDFChar: 7576 767 6 1 5 -3 -1
+5kmSE
 BDFRefChar: 1607 1552 0 0 N
 BDFRefChar: 1608 1551 0 0 N
 BDFRefChar: 1609 1549 0 0 N
