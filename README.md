@@ -30,6 +30,7 @@ A full character map is available at [猫.dev].
   - [x] `U+0180..U+024F` Latin Extended-B
   - [x] `U+0250..U+02AF` IPA Extensions
   - [x] `U+02B0..U+02FF` Spacing Modifier Letters
+  - [x] `U+0300..U+036F` Combining Diacritical Marks
   - [x] `U+0370..U+03FF` Greek and Coptic
   - [x] `U+0530..U+058F` Armenian
   - [ ] `U+0590..U+05FF` Hebrew
