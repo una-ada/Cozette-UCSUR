@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082812035
-ModificationTime: 1774524043
+ModificationTime: 1774530581
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -119,11 +119,11 @@ DisplaySize: 13
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 307
-WinInfo: 66544 16 13
+WinInfo: 1376 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 0 -1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 8613
+BeginChars: 1114112 8619
 
 StartChar: uni0000
 Encoding: 0 0 0
@@ -71353,8 +71353,50 @@ Width: 1024
 Flags: HW
 LayerCount: 2
 EndChar
+
+StartChar: afii57716
+Encoding: 1520 1520 8613
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: afii57717
+Encoding: 1521 1521 8614
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: afii57718
+Encoding: 1522 1522 8615
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni05F3
+Encoding: 1523 1523 8616
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni05F4
+Encoding: 1524 1524 8617
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni05EF
+Encoding: 1519 1519 8618
+Width: 2048
+Flags: HW
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 8618 10 3 1
+BitmapFont: 13 8624 10 3 1
 BDFStartProperties: 42
 FONT 1 "-una-CozetteUCSUR-Medium-R-Normal--13-120-75-75-M-60-ISO10646-1"
 COMMENT 0 "(c) 2020-2026 Una Ada <una@xn--z7x.dev>, Samhain <samhain@moonwit.ch> & contributors <https://github.com/the-moonwitch/Cozette/contributors>"
@@ -87342,16 +87384,16 @@ BDFChar: 7969 1491 6 1 5 0 5
 p]qEB&.egA
 BDFChar: 7970 1492 6 1 5 0 5
 p]qEBOH9GB
-BDFChar: 7971 1493 6 2 3 0 5
-J3Z@b5X5;L
+BDFChar: 7971 1493 6 2 3 0 6
+JA=E85X7R7
 BDFChar: 7972 1494 6 2 4 0 5
 i#k9M5X5;L
 BDFChar: 7973 1495 6 1 5 0 5
 p]utCOH9GB
 BDFChar: 7974 1496 6 1 5 0 5
 OJmtkLi<=o
-BDFChar: 7975 1497 6 2 3 3 5
-^d*DM
+BDFChar: 7975 1497 6 2 3 3 6
+JA=F#
 BDFChar: 7976 1498 6 1 5 -3 5
 n-B:*#RC\A#QOi)
 BDFChar: 7977 1499 6 1 5 0 5
@@ -88636,6 +88678,18 @@ BDFChar: 8611 66686 6 1 5 0 5
 \A5n1J:IV"
 BDFChar: 8612 66687 6 1 5 0 8
 J:N/H:f&Pg-ia5I
+BDFChar: 8613 1520 6 1 5 0 6
+OP!)p84Z8O
+BDFChar: 8614 1521 6 1 5 0 6
+OP!*[#RC\9
+BDFChar: 8615 1522 6 1 5 3 6
+OP!*c
+BDFChar: 8616 1523 6 2 4 6 8
++@(GW
+BDFChar: 8617 1524 6 1 5 6 8
+-r?Q:
+BDFChar: 8618 1519 6 1 5 3 9
++>=A"fLV)(
 BDFRefChar: 1607 1552 0 0 N
 BDFRefChar: 1608 1551 0 0 N
 BDFRefChar: 1609 1549 0 0 N
