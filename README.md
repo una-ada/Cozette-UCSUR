@@ -196,7 +196,7 @@ A full character map is available at [猫.dev].
   - [x] `U+010500..U+01052F` Elbasan
   - [x] `U+010530..U+01056F` Caucasian Albanian
   - [x] `U+010570..U+0105BF` Vithkuqi
-  - [ ] `U+0105C0..U+0105FF` Todhri
+  - [x] `U+0105C0..U+0105FF` Todhri
   - [ ] `U+010600..U+01077F` Linear A
   - [ ] `U+010780..U+0107BF` Latin Extended-F
   - [ ] `U+010800..U+01083F` Cypriot Syllabary
