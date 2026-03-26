@@ -115,7 +115,7 @@ A full character map is available at [猫.dev].
   - [x] `U+2C00..U+2C5F` Glagolitic
   - [x] `U+2C60..U+2C7F` Latin Extended-C
   - [x] `U+2C80..U+2CFF` Coptic
-  - [ ] `U+2D00..U+2D2F` Georgian Supplement
+  - [x] `U+2D00..U+2D2F` Georgian Supplement
   - [x] `U+2D30..U+2D7F` Tifinagh
   - [ ] `U+2D80..U+2DDF` Ethiopic Extended
   - [ ] `U+2DE0..U+2DFF` Cyrillic Extended-A
