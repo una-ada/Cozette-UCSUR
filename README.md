@@ -34,7 +34,7 @@ A full character map is available at [猫.dev].
   - [x] `U+0370..U+03FF` Greek and Coptic
   - [x] `U+0400..U+04FF` Greek and Coptic
   - [x] `U+0530..U+058F` Armenian
-  - [ ] `U+0590..U+05FF` Hebrew
+  - [x] `U+0590..U+05FF` Hebrew
   - [ ] `U+0600..U+06FF` Arabic
   - [ ] `U+0700..U+074F` Syriac
   - [ ] `U+0750..U+077F` Arabic Supplement
