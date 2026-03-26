@@ -200,7 +200,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+010600..U+01077F` Linear A
   - [ ] `U+010780..U+0107BF` Latin Extended-F
   - [ ] `U+010800..U+01083F` Cypriot Syllabary
-  - [ ] `U+010840..U+01085F` Imperial Aramaic
+  - [x] `U+010840..U+01085F` Imperial Aramaic
   - [ ] `U+010860..U+01087F` Palmyrene
   - [ ] `U+010880..U+0108AF` Nabataean
   - [ ] `U+0108E0..U+0108FF` Hatran
