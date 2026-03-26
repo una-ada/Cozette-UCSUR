@@ -191,7 +191,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+0103A0..U+0103DF` Old Persian
   - [ ] `U+010400..U+01044F` Deseret
   - [ ] `U+010450..U+01047F` Shavian
-  - [ ] `U+010480..U+0104AF` Osmanya
+  - [x] `U+010480..U+0104AF` Osmanya
   - [ ] `U+0104B0..U+0104FF` Osage
   - [ ] `U+010500..U+01052F` Elbasan
   - [ ] `U+010530..U+01056F` Caucasian Albanian
