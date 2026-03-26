@@ -87,7 +87,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+1C00..U+1C4F` Lepcha
   - [ ] `U+1C50..U+1C7F` Ol Chiki
   - [ ] `U+1C80..U+1C8F` Cyrillic Extended-C
-  - [ ] `U+1C90..U+1CBF` Georgian Extended
+  - [x] `U+1C90..U+1CBF` Georgian Extended
   - [ ] `U+1CC0..U+1CCF` Sundanese Supplement
   - [ ] `U+1CD0..U+1CFF` Vedic Extensions
   - [ ] `U+1D00..U+1D7F` Phonetic Extensions
