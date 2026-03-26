@@ -192,7 +192,7 @@ A full character map is available at [猫.dev].
   - [x] `U+010400..U+01044F` Deseret
   - [x] `U+010450..U+01047F` Shavian
   - [x] `U+010480..U+0104AF` Osmanya
-  - [ ] `U+0104B0..U+0104FF` Osage
+  - [x] `U+0104B0..U+0104FF` Osage
   - [x] `U+010500..U+01052F` Elbasan
   - [x] `U+010530..U+01056F` Caucasian Albanian
   - [x] `U+010570..U+0105BF` Vithkuqi
