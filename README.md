@@ -189,7 +189,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+010350..U+01037F` Old Permic
   - [ ] `U+010380..U+01039F` Ugaritic
   - [ ] `U+0103A0..U+0103DF` Old Persian
-  - [ ] `U+010400..U+01044F` Deseret
+  - [x] `U+010400..U+01044F` Deseret
   - [ ] `U+010450..U+01047F` Shavian
   - [x] `U+010480..U+0104AF` Osmanya
   - [ ] `U+0104B0..U+0104FF` Osage
