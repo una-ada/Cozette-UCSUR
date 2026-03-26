@@ -59,12 +59,12 @@ A full character map is available at [猫.dev].
   - [ ] `U+0E80..U+0EFF` Lao
   - [ ] `U+0F00..U+0FFF` Tibetan
   - [ ] `U+1000..U+109F` Myanmar
-  - [ ] `U+10A0..U+10FF` Georgian
+  - [x] `U+10A0..U+10FF` Georgian
   - [ ] `U+1100..U+11FF` Hangul Jamo
   - [ ] `U+1200..U+137F` Ethiopic
   - [ ] `U+1380..U+139F` Ethiopic Supplement
-  - [ ] `U+13A0..U+13FF` Cherokee
-  - [ ] `U+1400..U+167F` Unified Canadian Aboriginal Syllabics
+  - [x] `U+13A0..U+13FF` Cherokee
+  - [x] `U+1400..U+167F` Unified Canadian Aboriginal Syllabics
   - [x] `U+1680..U+169F` Ogham
   - [x] `U+16A0..U+16FF` Runic
   - [ ] `U+1700..U+171F` Tagalog
