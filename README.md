@@ -175,7 +175,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+FF00..U+FFEF` Halfwidth and Fullwidth Forms
   - [ ] `U+FFF0..U+FFFF` Specials
 - [ ] Unicode Supplementary Multilingual Plane
-  - [ ] `U+010000..U+01007F` Linear B Syllabary
+  - [x] `U+010000..U+01007F` Linear B Syllabary
   - [ ] `U+010080..U+0100FF` Linear B Ideograms
   - [ ] `U+010100..U+01013F` Aegean Numbers
   - [x] `U+010140..U+01018F` Ancient Greek Numbers
