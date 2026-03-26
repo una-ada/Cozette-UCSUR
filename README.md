@@ -138,7 +138,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+4E00..U+9FFF` CJK Unified Ideographs
   - [ ] `U+A000..U+A48F` Yi Syllables
   - [ ] `U+A490..U+A4CF` Yi Radicals
-  - [ ] `U+A4D0..U+A4FF` Lisu
+  - [x] `U+A4D0..U+A4FF` Lisu
   - [ ] `U+A500..U+A63F` Vai
   - [ ] `U+A640..U+A69F` Cyrillic Extended-B
   - [ ] `U+A6A0..U+A6FF` Bamum
