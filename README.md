@@ -193,8 +193,8 @@ A full character map is available at [猫.dev].
   - [ ] `U+010450..U+01047F` Shavian
   - [x] `U+010480..U+0104AF` Osmanya
   - [ ] `U+0104B0..U+0104FF` Osage
-  - [ ] `U+010500..U+01052F` Elbasan
-  - [ ] `U+010530..U+01056F` Caucasian Albanian
+  - [x] `U+010500..U+01052F` Elbasan
+  - [x] `U+010530..U+01056F` Caucasian Albanian
   - [ ] `U+010570..U+0105BF` Vithkuqi
   - [ ] `U+0105C0..U+0105FF` Todhri
   - [ ] `U+010600..U+01077F` Linear A
@@ -267,7 +267,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+011EE0..U+011EFF` Makasar
   - [ ] `U+011F00..U+011F5F` Kawi
   - [ ] `U+011FC0..U+011FFF` Tamil Supplement
-  - [ ] `U+012000..U+0123FF` Cuneiform*
+  - [ ] `U+012000..U+0123FF` Cuneiform
   - [ ] `U+012400..U+01247F` Cuneiform Numbers and Punctuation
   - [ ] `U+012480..U+01254F` Early Dynastic Cuneiform
   - [ ] `U+012F90..U+012FFF` Cypro-Minoan
