@@ -210,7 +210,7 @@ A full character map is available at [猫.dev].
   - [x] `U+010980..U+01099F` Meroitic Hieroglyphs
   - [x] `U+0109A0..U+0109FF` Meroitic Cursive
   - [ ] `U+010A00..U+010A5F` Kharoshthi
-  - [ ] `U+010A60..U+010A7F` Old South Arabian
+  - [x] `U+010A60..U+010A7F` Old South Arabian
   - [ ] `U+010A80..U+010A9F` Old North Arabian
   - [ ] `U+010AC0..U+010AFF` Manichaean
   - [ ] `U+010B00..U+010B3F` Avestan
