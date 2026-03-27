@@ -215,7 +215,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+010AC0..U+010AFF` Manichaean
   - [ ] `U+010B00..U+010B3F` Avestan
   - [x] `U+010B40..U+010B5F` Inscriptional Parthian
-  - [ ] `U+010B60..U+010B7F` Inscriptional Pahlavi
+  - [x] `U+010B60..U+010B7F` Inscriptional Pahlavi
   - [ ] `U+010B80..U+010BAF` Psalter Pahlavi
   - [ ] `U+010C00..U+010C4F` Old Turkic
   - [ ] `U+010C80..U+010CFF` Old Hungarian
