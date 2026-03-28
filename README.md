@@ -177,7 +177,7 @@ A full character map is available at [猫.dev].
 - [ ] Unicode Supplementary Multilingual Plane
   - [x] `U+010000..U+01007F` Linear B Syllabary
   - [ ] `U+010080..U+0100FF` Linear B Ideograms
-  - [ ] `U+010100..U+01013F` Aegean Numbers
+  - [x] `U+010100..U+01013F` Aegean Numbers
   - [x] `U+010140..U+01018F` Ancient Greek Numbers
   - [ ] `U+010190..U+0101CF` Ancient Symbols
   - [ ] `U+0101D0..U+0101FF` Phaistos Disc
@@ -203,7 +203,7 @@ A full character map is available at [猫.dev].
   - [x] `U+010840..U+01085F` Imperial Aramaic
   - [ ] `U+010860..U+01087F` Palmyrene
   - [ ] `U+010880..U+0108AF` Nabataean
-  - [ ] `U+0108E0..U+0108FF` Hatran
+  - [x] `U+0108E0..U+0108FF` Hatran
   - [x] `U+010900..U+01091F` Phoenecian
   - [x] `U+010920..U+01093F` Lydian
   - [x] `U+010940..U+01095F` Sidetic
@@ -211,7 +211,7 @@ A full character map is available at [猫.dev].
   - [x] `U+0109A0..U+0109FF` Meroitic Cursive
   - [ ] `U+010A00..U+010A5F` Kharoshthi
   - [x] `U+010A60..U+010A7F` Old South Arabian
-  - [ ] `U+010A80..U+010A9F` Old North Arabian
+  - [x] `U+010A80..U+010A9F` Old North Arabian
   - [ ] `U+010AC0..U+010AFF` Manichaean
   - [ ] `U+010B00..U+010B3F` Avestan
   - [x] `U+010B40..U+010B5F` Inscriptional Parthian
