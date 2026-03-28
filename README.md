@@ -128,7 +128,7 @@ A full character map is available at [猫.dev].
   - [x] `U+3100..U+312F` Bopomofo
   - [ ] `U+3130..U+318F` Hangul Compatibility Jamo
   - [ ] `U+3190..U+319F` Kanbun
-  - [ ] `U+31A0..U+31BF` Bopomofo Extended
+  - [x] `U+31A0..U+31BF` Bopomofo Extended
   - [ ] `U+31C0..U+31EF` CJK Strokes
   - [ ] `U+31F0..U+31FF` Katakana Phonetic Extensions
   - [ ] `U+3200..U+32FF` Enclosed CJK Letters and Months
