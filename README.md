@@ -125,7 +125,7 @@ A full character map is available at [猫.dev].
   - [ ] `U+2FE0..U+2FEF` Unassigned
   - [ ] `U+2FF0..U+2FFF` Ideographic Description Characters
   - [ ] `U+3000..U+303F` CJK Symbols and Punctuation
-  - [ ] `U+3100..U+312F` Bopomofo
+  - [x] `U+3100..U+312F` Bopomofo
   - [ ] `U+3130..U+318F` Hangul Compatibility Jamo
   - [ ] `U+3190..U+319F` Kanbun
   - [ ] `U+31A0..U+31BF` Bopomofo Extended
